@@ -5,3 +5,15 @@
 #google_translate_element {
   padding: 17px;
 }
+
+.section-dark {
+  background-color: #553576 !important;
+}
+
+.section-darker {
+  background-color: #322142 !important;
+}
+
+.section-gray-light {
+  background-color: #D9D9D9;
+ }
