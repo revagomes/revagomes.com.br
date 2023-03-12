@@ -17,3 +17,140 @@
 .section-gray-light {
   background-color: #D9D9D9;
  }
+
+#aprender {
+  background: linear-gradient(86deg,rgb(41 142 189) 0,rgb(8 26 60) 96%);
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+#aprender header {
+  background: none;
+}
+
+#aprender h2 {
+  margin-bottom: 5px;
+}
+
+#aprender header p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#aprender .book-cover {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#aprender img {
+  box-shadow: 2px 2px 7px #333;
+  border: white solid;
+}
+
+#aprender ul li {
+  text-shadow: 1px 1px 1px #333;
+}
+
+#aprender .details ul li {
+  list-style-type: circle;
+  color: white;
+}
+#aprender ul.clean {
+  list-style: none;
+}
+
+#aprender .reviews {
+  color: white;
+}
+
+#aprender .reviews h3 {
+  text-shadow: 1px 1px 1px #333;
+  padding-left: 35px;
+}
+
+#aprender blockquote {
+  font-size: 15px;
+}
+
+#aprender .cta {
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+#aprender .cta .amazon a small {
+  line-height: 1em;
+}
+
+#aprender .cta p {
+  margin: 0;
+}
+
+#aprender .cta .badge, .badge:focus, .badge.focus, .badge:active, .badge.active {
+    color: #ffffff;
+    background-color: #128f76;
+    border-color: #11866f;
+}
+
+#aprender .cta .badge:hover, .badge:focus, .badge.focus, .badge:active, .badge.active {
+    color: #ffffff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+#aprender a.btn {
+  font-weight: bold;
+  color: #333;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+#aprender .cta .separator {
+  color: white;
+  font-size: 13px;
+}
+
+#aprender a.more-link, .book-langs a {
+  color: white;
+  font-size: 12px;
+  border-bottom: dotted 1px;
+}
+
+#aprender a.more-link  {
+  text-decoration: none;
+}
+
+#aprender a.more-link:hover,
+#aprender a.more-link:focus,
+#aprender a.more-link:active  {
+  text-decoration: underline;
+}
+
+#aprender a.more-link:hover,
+.book-langs a:hover,
+#aprender a.more-link:focus,
+.book-langs a:focus,
+#aprender a.more-link:active,
+.book-langs a:active {
+  border: none;
+}
+
+#aprender .amazon a {
+  color: #a2ffed;
+}
+
+/* Override bootstrap styles */
+
+header .container {
+  padding-bottom: 30px;
+}
+
+#portfolio .portfolio-item .portfolio-link:focus .caption,
+#portfolio .portfolio-item .portfolio-link:active .caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-bottom: 80px;
+}
