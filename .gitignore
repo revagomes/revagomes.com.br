@@ -25,3 +25,26 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+
+# IDE & editor config
+.idea/
+.vscode/
+
+# Claude / AI tooling
+.claude/
+.omc/
+.ralph/
+CLAUDE.md
+IMPLEMENTATION_PLAN.md
+
+# Local scripts not part of the site
+fish_speak.py
+
+# Backup files
+*.bak
+*.bak-*
+
+# npm (no build step — these shouldn't be here)
+package.json
+package-lock.json
+node_modules/
