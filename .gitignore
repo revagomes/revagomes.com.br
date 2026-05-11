@@ -48,3 +48,10 @@ fish_speak.py
 package.json
 package-lock.json
 node_modules/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
