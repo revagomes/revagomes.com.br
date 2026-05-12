@@ -547,3 +547,53 @@ header .container {
   background-color: #fff;
   border-color: #fff;
 }
+
+/* Contact form — inputs on dark background */
+.contact-form {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.contact-form .form-group {
+  margin-bottom: 14px;
+}
+
+.contact-form .form-control {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: none;
+  height: 42px;
+}
+
+.contact-form textarea.form-control {
+  height: auto;
+}
+
+.contact-form .form-control::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.35); }
+.contact-form .form-control::-moz-placeholder { color: rgba(255, 255, 255, 0.35); }
+.contact-form .form-control::placeholder { color: rgba(255, 255, 255, 0.35); }
+
+.contact-form .form-control:focus {
+  background: rgba(255, 255, 255, 0.11);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: none;
+  color: #fff;
+}
+
+.contact-form button[type="submit"] {
+  margin-top: 8px;
+}
+
+.contact-success {
+  display: none;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 15px;
+}
+
+.contact-success .fa {
+  margin-right: 6px;
+  color: #18bc9c;
+}

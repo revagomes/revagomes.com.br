@@ -544,17 +544,38 @@
       </div>
     </section> -->
 
-    <!-- Contact CTA -->
-    <section id="contact" class="section-darker text-center">
+    <!-- Contact -->
+    <section id="contact" class="section-darker">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+          <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
             <h2>Get in Touch</h2>
             <hr class="star-light">
             <p>Available for Drupal consulting, full-stack development projects, and technical leadership roles. Let's talk.</p>
-            <a href="mailto:revagomes@gmail.com" class="btn btn-xl btn-outline" style="margin-bottom:10px;">
-              <i class="fa fa-envelope"></i> revagomes@gmail.com
-            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+            <form id="contact-form" action="https://formspree.io/f/xlgzzdwq" method="POST" class="contact-form">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Your email" required>
+              </div>
+              <div class="form-group">
+                <textarea name="message" class="form-control" rows="5" placeholder="Your message" required></textarea>
+              </div>
+              <input type="hidden" name="_subject" value="Portfolio contact — revagomes.com.br">
+              <div class="text-center">
+                <button type="submit" class="btn btn-outline">
+                  Send Message <i class="fa fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+            <div id="contact-success" class="contact-success text-center">
+              <i class="fa fa-check-circle"></i> Message sent! I'll be in touch soon.
+            </div>
           </div>
         </div>
       </div>
@@ -1002,6 +1023,37 @@
     }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Contact form AJAX submission -->
+    <script>
+    (function () {
+      var form = document.getElementById('contact-form');
+      if (!form) return;
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var btn = form.querySelector('button[type="submit"]');
+        btn.disabled = true;
+        btn.innerHTML = 'Sending…';
+        fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' }
+        }).then(function (r) {
+          if (r.ok) {
+            form.reset();
+            form.style.display = 'none';
+            document.getElementById('contact-success').style.display = 'block';
+          } else {
+            btn.disabled = false;
+            btn.innerHTML = 'Send Message <i class="fa fa-paper-plane"></i>';
+          }
+        }).catch(function () {
+          btn.disabled = false;
+          btn.innerHTML = 'Send Message <i class="fa fa-paper-plane"></i>';
+        });
+      });
+    }());
+    </script>
 
   </body>
 </html>
