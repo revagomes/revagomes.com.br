@@ -1,0 +1,135 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10302a"/>
+      <stop offset="100%" stop-color="#1e7a5e"/>
+    </linearGradient>
+    <linearGradient id="glow6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(16,48,42,0.7)"/>
+    </linearGradient>
+    <linearGradient id="bar6a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(100,220,170,0.7)"/>
+      <stop offset="100%" stop-color="rgba(100,220,170,0.2)"/>
+    </linearGradient>
+    <linearGradient id="bar6b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(100,180,255,0.65)"/>
+      <stop offset="100%" stop-color="rgba(100,180,255,0.15)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="380" fill="url(#bg6)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="680" cy="50" r="140" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="680" cy="50" r="80" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="60" cy="330" r="100" fill="rgba(255,255,255,0.03)"/>
+
+  <!-- Left sidebar -->
+  <rect x="40" y="35" width="130" height="310" rx="5" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Sidebar brand -->
+  <rect x="56" y="54" width="60" height="8" rx="4" fill="rgba(100,220,170,0.6)"/>
+  <rect x="56" y="68" width="40" height="5" rx="2" fill="rgba(255,255,255,0.2)"/>
+  <!-- Divider -->
+  <line x1="48" y1="88" x2="162" y2="88" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Nav items -->
+  <rect x="54" y="100" width="100" height="24" rx="3" fill="rgba(100,220,170,0.2)" stroke="rgba(100,220,170,0.35)" stroke-width="1"/>
+  <rect x="62" y="109" width="50" height="6" rx="3" fill="rgba(100,220,170,0.8)"/>
+  <rect x="62" y="136" width="60" height="6" rx="3" fill="rgba(255,255,255,0.25)"/>
+  <rect x="62" y="156" width="70" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="62" y="176" width="55" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="62" y="196" width="65" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="62" y="216" width="45" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <!-- Avatar bottom -->
+  <circle cx="105" cy="322" r="16" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <rect x="88" y="342" width="34" height="5" rx="2" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Top stats row -->
+  <!-- Stat 1: Revenue -->
+  <rect x="190" y="35" width="130" height="72" rx="5" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="205" y="56" fill="rgba(255,255,255,0.35)" font-size="8" font-family="monospace" letter-spacing="1.5">REVENUE</text>
+  <rect x="205" y="64" width="90" height="12" rx="3" fill="rgba(100,220,170,0.55)"/>
+  <rect x="205" y="83" width="50" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="262" y="82" width="30" height="7" rx="3" fill="rgba(100,220,170,0.3)"/>
+
+  <!-- Stat 2: Clients -->
+  <rect x="332" y="35" width="130" height="72" rx="5" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="347" y="56" fill="rgba(255,255,255,0.35)" font-size="8" font-family="monospace" letter-spacing="1.5">CLIENTS</text>
+  <rect x="347" y="64" width="70" height="12" rx="3" fill="rgba(100,180,255,0.55)"/>
+  <rect x="347" y="83" width="55" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="408" y="82" width="28" height="7" rx="3" fill="rgba(100,180,255,0.3)"/>
+
+  <!-- Stat 3: Projects -->
+  <rect x="474" y="35" width="130" height="72" rx="5" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="489" y="56" fill="rgba(255,255,255,0.35)" font-size="8" font-family="monospace" letter-spacing="1.5">PROJECTS</text>
+  <rect x="489" y="64" width="75" height="12" rx="3" fill="rgba(255,190,100,0.55)"/>
+  <rect x="489" y="83" width="45" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="539" y="82" width="35" height="7" rx="3" fill="rgba(255,190,100,0.3)"/>
+
+  <!-- Stat 4: Time tracked -->
+  <rect x="616" y="35" width="148" height="72" rx="5" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="631" y="56" fill="rgba(255,255,255,0.35)" font-size="8" font-family="monospace" letter-spacing="1.5">HOURS</text>
+  <rect x="631" y="64" width="80" height="12" rx="3" fill="rgba(200,150,255,0.55)"/>
+  <rect x="631" y="83" width="60" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Bar chart -->
+  <rect x="190" y="122" width="270" height="200" rx="5" fill="rgba(0,0,0,0.18)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="206" y="141" fill="rgba(255,255,255,0.35)" font-size="8" font-family="monospace" letter-spacing="1.5">MONTHLY REVENUE</text>
+  <!-- Chart grid lines -->
+  <line x1="210" y1="290" x2="444" y2="290" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="210" y1="265" x2="444" y2="265" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="210" y1="240" x2="444" y2="240" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="210" y1="215" x2="444" y2="215" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="210" y1="190" x2="444" y2="190" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="210" y1="165" x2="444" y2="165" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <!-- Bars -->
+  <rect x="218" y="235" width="22" height="55" rx="2" fill="url(#bar6a)"/>
+  <rect x="250" y="210" width="22" height="80" rx="2" fill="url(#bar6a)"/>
+  <rect x="282" y="250" width="22" height="40" rx="2" fill="url(#bar6a)"/>
+  <rect x="314" y="195" width="22" height="95" rx="2" fill="url(#bar6a)"/>
+  <rect x="346" y="220" width="22" height="70" rx="2" fill="url(#bar6a)"/>
+  <rect x="378" y="175" width="22" height="115" rx="2" fill="url(#bar6a)"/>
+  <rect x="410" y="188" width="22" height="102" rx="2" fill="url(#bar6b)"/>
+
+  <!-- Client table -->
+  <rect x="474" y="122" width="290" height="200" rx="5" fill="rgba(0,0,0,0.18)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="490" y="141" fill="rgba(255,255,255,0.35)" font-size="8" font-family="monospace" letter-spacing="1.5">CLIENTS</text>
+  <!-- Table header -->
+  <rect x="474" y="148" width="290" height="22" fill="rgba(255,255,255,0.06)"/>
+  <rect x="490" y="157" width="55" height="5" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <rect x="580" y="157" width="40" height="5" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <rect x="670" y="157" width="50" height="5" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <!-- Table rows -->
+  <rect x="490" y="182" width="65" height="5" rx="2" fill="rgba(255,255,255,0.45)"/>
+  <rect x="580" y="182" width="40" height="5" rx="2" fill="rgba(100,220,170,0.6)"/>
+  <rect x="670" y="181" width="60" height="7" rx="3" fill="rgba(100,220,170,0.2)" stroke="rgba(100,220,170,0.35)" stroke-width="1"/>
+
+  <rect x="490" y="202" width="80" height="5" rx="2" fill="rgba(255,255,255,0.4)"/>
+  <rect x="580" y="202" width="50" height="5" rx="2" fill="rgba(100,180,255,0.5)"/>
+  <rect x="670" y="201" width="60" height="7" rx="3" fill="rgba(100,180,255,0.2)" stroke="rgba(100,180,255,0.35)" stroke-width="1"/>
+
+  <rect x="490" y="222" width="55" height="5" rx="2" fill="rgba(255,255,255,0.4)"/>
+  <rect x="580" y="222" width="45" height="5" rx="2" fill="rgba(255,190,100,0.5)"/>
+  <rect x="670" y="221" width="60" height="7" rx="3" fill="rgba(255,190,100,0.2)" stroke="rgba(255,190,100,0.35)" stroke-width="1"/>
+
+  <rect x="490" y="242" width="70" height="5" rx="2" fill="rgba(255,255,255,0.35)"/>
+  <rect x="580" y="242" width="40" height="5" rx="2" fill="rgba(100,220,170,0.45)"/>
+  <rect x="670" y="241" width="60" height="7" rx="3" fill="rgba(100,220,170,0.15)" stroke="rgba(100,220,170,0.3)" stroke-width="1"/>
+
+  <rect x="490" y="262" width="75" height="5" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <rect x="580" y="262" width="35" height="5" rx="2" fill="rgba(200,150,255,0.5)"/>
+  <rect x="670" y="261" width="60" height="7" rx="3" fill="rgba(200,150,255,0.15)" stroke="rgba(200,150,255,0.3)" stroke-width="1"/>
+
+  <!-- Dividers between rows -->
+  <line x1="480" y1="194" x2="758" y2="194" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="480" y1="214" x2="758" y2="214" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="480" y1="234" x2="758" y2="234" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <line x1="480" y1="254" x2="758" y2="254" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Tech label -->
+  <text x="615" y="310" text-anchor="middle" fill="rgba(255,255,255,0.15)" font-size="9" font-family="monospace" letter-spacing="1">PHP 8 · React 18 · Chart.js</text>
+
+  <!-- Bottom gradient overlay -->
+  <rect x="0" y="280" width="800" height="100" fill="url(#glow6)"/>
+</svg>

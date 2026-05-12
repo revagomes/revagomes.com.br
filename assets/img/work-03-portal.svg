@@ -1,0 +1,94 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#322142"/>
+      <stop offset="100%" stop-color="#553576"/>
+    </linearGradient>
+    <linearGradient id="glow3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(50,33,66,0.75)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#bg3)"/>
+
+  <!-- Background grid -->
+  <line x1="0" y1="95" x2="800" y2="95" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="0" y1="190" x2="800" y2="190" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="0" y1="285" x2="800" y2="285" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="380" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="380" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="380" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="56" fill="rgba(0,0,0,0.25)"/>
+  <!-- Gov logo -->
+  <!-- Shield shape -->
+  <path d="M52,14 L68,14 L74,20 L74,38 L60,46 L46,38 L46,20 Z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <rect x="54" y="22" width="12" height="8" rx="1" fill="rgba(255,255,255,0.4)"/>
+  <rect x="56" y="32" width="8" height="8" rx="1" fill="rgba(255,255,255,0.4)"/>
+
+  <rect x="84" y="22" width="90" height="7" rx="3" fill="rgba(255,255,255,0.4)"/>
+  <rect x="84" y="35" width="60" height="5" rx="3" fill="rgba(255,255,255,0.18)"/>
+  <!-- Nav links right -->
+  <rect x="520" y="25" width="40" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="574" y="25" width="40" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="628" y="25" width="40" height="6" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="682" y="18" width="80" height="22" rx="3" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <rect x="698" y="26" width="48" height="6" rx="3" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- Search section -->
+  <rect x="100" y="80" width="600" height="52" rx="26" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <!-- Search icon -->
+  <circle cx="136" cy="106" r="10" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <line x1="143" y1="113" x2="150" y2="120" stroke="rgba(255,255,255,0.35)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Search text -->
+  <rect x="160" y="101" width="180" height="10" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <!-- Search button -->
+  <rect x="614" y="86" width="74" height="40" rx="22" fill="rgba(255,255,255,0.22)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <rect x="628" y="101" width="46" height="10" rx="5" fill="rgba(255,255,255,0.5)"/>
+
+  <!-- Faceted filters -->
+  <rect x="50" y="155" width="160" height="190" rx="5" fill="rgba(0,0,0,0.18)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="64" y="168" width="70" height="7" rx="3" fill="rgba(255,255,255,0.4)"/>
+  <!-- Filter groups -->
+  <rect x="64" y="188" width="55" height="6" rx="3" fill="rgba(255,255,255,0.25)"/>
+  <rect x="64" y="202" width="90" height="5" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="64" y="215" width="75" height="5" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="64" y="228" width="80" height="5" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <line x1="64" y1="244" x2="196" y2="244" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <rect x="64" y="254" width="55" height="6" rx="3" fill="rgba(255,255,255,0.25)"/>
+  <rect x="64" y="270" width="85" height="5" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="64" y="283" width="65" height="5" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="64" y="296" width="90" height="5" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="64" y="309" width="70" height="5" rx="3" fill="rgba(255,255,255,0.12)"/>
+
+  <!-- Results area -->
+  <!-- Result 1 -->
+  <rect x="228" y="155" width="522" height="72" rx="5" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.11)" stroke-width="1"/>
+  <rect x="244" y="170" width="220" height="9" rx="4" fill="rgba(180,140,255,0.55)"/>
+  <rect x="244" y="188" width="380" height="6" rx="3" fill="rgba(255,255,255,0.22)"/>
+  <rect x="244" y="202" width="290" height="6" rx="3" fill="rgba(255,255,255,0.14)"/>
+  <!-- WCAG badge -->
+  <rect x="654" y="168" width="80" height="20" rx="3" fill="rgba(100,220,170,0.2)" stroke="rgba(100,220,170,0.35)" stroke-width="1"/>
+  <text x="694" y="182" text-anchor="middle" fill="rgba(100,220,170,0.8)" font-size="9" font-family="monospace" font-weight="bold" letter-spacing="1">WCAG AA</text>
+
+  <!-- Result 2 -->
+  <rect x="228" y="237" width="522" height="72" rx="5" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.11)" stroke-width="1"/>
+  <rect x="244" y="252" width="180" height="9" rx="4" fill="rgba(180,140,255,0.55)"/>
+  <rect x="244" y="270" width="360" height="6" rx="3" fill="rgba(255,255,255,0.22)"/>
+  <rect x="244" y="284" width="250" height="6" rx="3" fill="rgba(255,255,255,0.14)"/>
+  <rect x="654" y="250" width="80" height="20" rx="3" fill="rgba(100,220,170,0.2)" stroke="rgba(100,220,170,0.35)" stroke-width="1"/>
+  <text x="694" y="264" text-anchor="middle" fill="rgba(100,220,170,0.8)" font-size="9" font-family="monospace" font-weight="bold" letter-spacing="1">WCAG AA</text>
+
+  <!-- Result 3 -->
+  <rect x="228" y="319" width="522" height="20" rx="5" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <rect x="244" y="327" width="200" height="6" rx="3" fill="rgba(255,255,255,0.18)"/>
+
+  <!-- Solr/Redis badges -->
+  <rect x="228" y="352" width="70" height="18" rx="3" fill="rgba(255,150,50,0.2)" stroke="rgba(255,150,50,0.3)" stroke-width="1"/>
+  <text x="263" y="365" text-anchor="middle" fill="rgba(255,150,50,0.7)" font-size="8" font-family="monospace" font-weight="bold" letter-spacing="1">Apache Solr</text>
+  <rect x="310" y="352" width="50" height="18" rx="3" fill="rgba(220,50,50,0.2)" stroke="rgba(220,50,50,0.3)" stroke-width="1"/>
+  <text x="335" y="365" text-anchor="middle" fill="rgba(220,80,80,0.7)" font-size="8" font-family="monospace" font-weight="bold" letter-spacing="1">Redis</text>
+
+  <rect x="0" y="290" width="800" height="90" fill="url(#glow3)"/>
+</svg>

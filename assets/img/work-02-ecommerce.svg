@@ -1,0 +1,97 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10302a"/>
+      <stop offset="100%" stop-color="#1e7a5e"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(16,48,42,0.7)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#bg2)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="700" cy="320" r="160" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="700" cy="320" r="90" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="100" cy="50" r="80" fill="rgba(255,255,255,0.04)"/>
+
+  <!-- Product grid -->
+  <!-- Row 1 -->
+  <!-- Card 1 -->
+  <rect x="50" y="50" width="160" height="200" rx="6" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <rect x="50" y="50" width="160" height="120" rx="6" fill="rgba(255,255,255,0.1)"/>
+  <rect x="50" y="162" width="160" height="6" rx="3" fill="rgba(255,255,255,0)"/>
+  <!-- Product image placeholder -->
+  <rect x="66" y="66" width="128" height="90" rx="4" fill="rgba(255,255,255,0.08)"/>
+  <polygon points="110,90 140,110 130,130 100,120" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="130" cy="95" r="14" fill="rgba(255,255,255,0.12)"/>
+  <!-- Product info -->
+  <rect x="64" y="182" width="80" height="7" rx="3" fill="rgba(255,255,255,0.55)"/>
+  <rect x="64" y="198" width="50" height="6" rx="3" fill="rgba(100,220,170,0.65)"/>
+  <!-- Cart button -->
+  <rect x="64" y="220" width="116" height="22" rx="3" fill="rgba(100,220,170,0.25)" stroke="rgba(100,220,170,0.4)" stroke-width="1"/>
+  <rect x="80" y="228" width="60" height="6" rx="3" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- Card 2 -->
+  <rect x="230" y="50" width="160" height="200" rx="6" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <rect x="230" y="50" width="160" height="120" rx="6" fill="rgba(255,255,255,0.1)"/>
+  <rect x="246" y="66" width="128" height="90" rx="4" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="310" cy="95" r="30" fill="rgba(255,255,255,0.12)"/>
+  <rect x="295" y="105" width="30" height="18" rx="2" fill="rgba(255,255,255,0.15)"/>
+  <rect x="244" y="182" width="90" height="7" rx="3" fill="rgba(255,255,255,0.55)"/>
+  <rect x="244" y="198" width="55" height="6" rx="3" fill="rgba(100,220,170,0.65)"/>
+  <rect x="244" y="220" width="116" height="22" rx="3" fill="rgba(100,220,170,0.25)" stroke="rgba(100,220,170,0.4)" stroke-width="1"/>
+  <rect x="260" y="228" width="60" height="6" rx="3" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- Card 3 -->
+  <rect x="410" y="50" width="160" height="200" rx="6" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <rect x="410" y="50" width="160" height="120" rx="6" fill="rgba(255,255,255,0.1)"/>
+  <rect x="426" y="66" width="128" height="90" rx="4" fill="rgba(255,255,255,0.08)"/>
+  <rect x="440" y="80" width="70" height="50" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <rect x="448" y="88" width="54" height="8" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <rect x="448" y="102" width="40" height="8" rx="2" fill="rgba(255,255,255,0.2)"/>
+  <rect x="424" y="182" width="85" height="7" rx="3" fill="rgba(255,255,255,0.55)"/>
+  <rect x="424" y="198" width="60" height="6" rx="3" fill="rgba(100,220,170,0.65)"/>
+  <rect x="424" y="220" width="116" height="22" rx="3" fill="rgba(100,220,170,0.25)" stroke="rgba(100,220,170,0.4)" stroke-width="1"/>
+  <rect x="440" y="228" width="60" height="6" rx="3" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- Cart panel right -->
+  <rect x="608" y="40" width="160" height="300" rx="6" fill="rgba(0,0,0,0.2)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <!-- Cart header -->
+  <rect x="608" y="40" width="160" height="40" rx="6" fill="rgba(255,255,255,0.08)"/>
+  <rect x="608" y="68" width="160" height="12" fill="rgba(255,255,255,0.08)"/>
+  <text x="688" y="66" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="11" font-family="sans-serif" font-weight="bold" letter-spacing="1">CART</text>
+  <!-- Cart items -->
+  <rect x="622" y="96" width="132" height="44" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="628" y="104" width="32" height="28" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="668" y="107" width="60" height="6" rx="3" fill="rgba(255,255,255,0.4)"/>
+  <rect x="668" y="119" width="40" height="5" rx="3" fill="rgba(100,220,170,0.5)"/>
+
+  <rect x="622" y="148" width="132" height="44" rx="3" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="628" y="156" width="32" height="28" rx="2" fill="rgba(255,255,255,0.12)"/>
+  <rect x="668" y="159" width="55" height="6" rx="3" fill="rgba(255,255,255,0.4)"/>
+  <rect x="668" y="171" width="35" height="5" rx="3" fill="rgba(100,220,170,0.5)"/>
+
+  <!-- Divider -->
+  <line x1="622" y1="208" x2="754" y2="208" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <!-- Total -->
+  <rect x="622" y="220" width="60" height="7" rx="3" fill="rgba(255,255,255,0.3)"/>
+  <rect x="710" y="220" width="44" height="7" rx="3" fill="rgba(100,220,170,0.65)"/>
+
+  <!-- Checkout button -->
+  <rect x="622" y="240" width="132" height="32" rx="4" fill="rgba(100,220,170,0.35)" stroke="rgba(100,220,170,0.55)" stroke-width="1.5"/>
+  <rect x="648" y="253" width="76" height="6" rx="3" fill="rgba(255,255,255,0.55)"/>
+
+  <!-- Stripe badge -->
+  <rect x="638" y="286" width="100" height="20" rx="3" fill="rgba(255,255,255,0.06)"/>
+  <text x="688" y="300" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="9" font-family="monospace" letter-spacing="1">Stripe · Secured</text>
+
+  <!-- Bottom row cards (partial) -->
+  <rect x="50" y="268" width="160" height="80" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="230" y="268" width="160" height="80" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="410" y="268" width="160" height="80" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <rect x="0" y="290" width="800" height="90" fill="url(#glow2)"/>
+</svg>
