@@ -1,0 +1,58 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#322142"/>
+      <stop offset="100%" stop-color="#553576"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(50,33,66,0.7)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#bg)"/>
+  <circle cx="720" cy="60" r="130" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="720" cy="60" r="80" fill="rgba(255,255,255,0.04)"/>
+  <!-- EU 12 stars in circle -->
+  <circle cx="210" cy="175" r="90" fill="rgba(0,0,80,0.35)" stroke="rgba(255,220,0,0.25)" stroke-width="1"/>
+  <circle cx="210" cy="175" r="65" fill="none" stroke="rgba(255,220,0,0.12)" stroke-width="1" stroke-dasharray="4,4"/>
+  <!-- 12 stars at radius 70 -->
+  <text x="210" y="112" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="245" y="121" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="273" y="148" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="280" y="182" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="270" y="216" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="244" y="240" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="210" y="249" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="176" y="240" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="150" y="216" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="140" y="182" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="150" y="148" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="176" y="121" text-anchor="middle" fill="rgba(255,220,0,0.75)" font-size="11">★</text>
+  <text x="210" y="183" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-size="11" font-family="monospace" letter-spacing="1">OpenEuropa</text>
+  <!-- Quality gates panel -->
+  <rect x="345" y="68" width="390" height="242" rx="6" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="540" y="94" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="9" font-family="monospace" letter-spacing="2">QUALITY GATES</text>
+  <!-- Gate rows -->
+  <rect x="368" y="108" width="344" height="28" rx="3" fill="rgba(100,220,100,0.08)"/>
+  <text x="384" y="126" fill="rgba(100,220,100,0.85)" font-size="11" font-family="monospace">✓</text>
+  <text x="402" y="126" fill="rgba(255,255,255,0.65)" font-size="11" font-family="monospace">PHPCS</text>
+  <rect x="620" y="113" width="72" height="16" rx="2" fill="rgba(100,220,100,0.2)"/>
+  <text x="656" y="125" text-anchor="middle" fill="rgba(100,220,100,0.9)" font-size="9" font-family="monospace">PASS</text>
+  <rect x="368" y="144" width="344" height="28" rx="3" fill="rgba(100,220,100,0.08)"/>
+  <text x="384" y="162" fill="rgba(100,220,100,0.85)" font-size="11" font-family="monospace">✓</text>
+  <text x="402" y="162" fill="rgba(255,255,255,0.65)" font-size="11" font-family="monospace">PHPStan</text>
+  <rect x="620" y="149" width="72" height="16" rx="2" fill="rgba(100,220,100,0.2)"/>
+  <text x="656" y="161" text-anchor="middle" fill="rgba(100,220,100,0.9)" font-size="9" font-family="monospace">PASS</text>
+  <rect x="368" y="180" width="344" height="28" rx="3" fill="rgba(100,220,100,0.08)"/>
+  <text x="384" y="198" fill="rgba(100,220,100,0.85)" font-size="11" font-family="monospace">✓</text>
+  <text x="402" y="198" fill="rgba(255,255,255,0.65)" font-size="11" font-family="monospace">PHPUnit</text>
+  <rect x="620" y="185" width="72" height="16" rx="2" fill="rgba(100,220,100,0.2)"/>
+  <text x="656" y="197" text-anchor="middle" fill="rgba(100,220,100,0.9)" font-size="9" font-family="monospace">PASS</text>
+  <rect x="368" y="216" width="344" height="28" rx="3" fill="rgba(100,220,100,0.08)"/>
+  <text x="384" y="234" fill="rgba(100,220,100,0.85)" font-size="11" font-family="monospace">✓</text>
+  <text x="402" y="234" fill="rgba(255,255,255,0.65)" font-size="11" font-family="monospace">Behat</text>
+  <rect x="620" y="221" width="72" height="16" rx="2" fill="rgba(100,220,100,0.2)"/>
+  <text x="656" y="233" text-anchor="middle" fill="rgba(100,220,100,0.9)" font-size="9" font-family="monospace">PASS</text>
+  <text x="540" y="285" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">Drupal · PHP 8 · EC Europa config</text>
+  <rect x="0" y="280" width="800" height="100" fill="url(#fade)"/>
+</svg>

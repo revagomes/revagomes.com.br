@@ -1,0 +1,52 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#322142"/>
+      <stop offset="100%" stop-color="#553576"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(50,33,66,0.7)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#bg)"/>
+  <circle cx="720" cy="60" r="130" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="720" cy="60" r="80" fill="rgba(255,255,255,0.04)"/>
+  <!-- Terminal -->
+  <rect x="55" y="45" width="470" height="275" rx="8" fill="rgba(0,0,0,0.42)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <rect x="55" y="45" width="470" height="34" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <rect x="55" y="67" width="470" height="12" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="80" cy="62" r="5.5" fill="rgba(255,90,90,0.65)"/>
+  <circle cx="98" cy="62" r="5.5" fill="rgba(255,195,0,0.65)"/>
+  <circle cx="116" cy="62" r="5.5" fill="rgba(100,220,100,0.65)"/>
+  <text x="290" y="66" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-size="10" font-family="monospace">NodeTest.php</text>
+  <!-- FAIL block -->
+  <text x="82" y="104" fill="rgba(255,90,90,0.9)" font-size="11" font-family="monospace" font-weight="bold">● FAIL  NodeTest::testPublishedStatus</text>
+  <text x="82" y="122" fill="rgba(255,255,255,0.3)" font-size="10" font-family="monospace">  Expected: "published"</text>
+  <text x="82" y="138" fill="rgba(255,255,255,0.3)" font-size="10" font-family="monospace">  Received: null</text>
+  <!-- Arrow RED → GREEN -->
+  <rect x="82" y="158" width="36" height="16" rx="3" fill="rgba(255,90,90,0.25)" stroke="rgba(255,90,90,0.5)" stroke-width="1"/>
+  <text x="100" y="170" text-anchor="middle" fill="rgba(255,90,90,0.9)" font-size="10" font-family="monospace" font-weight="bold">RED</text>
+  <text x="138" y="170" fill="rgba(255,255,255,0.35)" font-size="14" font-family="monospace">→</text>
+  <rect x="158" y="158" width="52" height="16" rx="3" fill="rgba(100,220,100,0.2)" stroke="rgba(100,220,100,0.5)" stroke-width="1"/>
+  <text x="184" y="170" text-anchor="middle" fill="rgba(100,220,100,0.9)" font-size="10" font-family="monospace" font-weight="bold">GREEN</text>
+  <text x="230" y="170" fill="rgba(255,255,255,0.35)" font-size="14" font-family="monospace">→</text>
+  <rect x="252" y="158" width="68" height="16" rx="3" fill="rgba(150,150,255,0.15)" stroke="rgba(150,150,255,0.4)" stroke-width="1"/>
+  <text x="286" y="170" text-anchor="middle" fill="rgba(150,150,255,0.8)" font-size="10" font-family="monospace" font-weight="bold">REFACTOR</text>
+  <!-- PASS block -->
+  <text x="82" y="200" fill="rgba(100,220,100,0.9)" font-size="11" font-family="monospace" font-weight="bold">✓ PASS  NodeTest::testPublishedStatus</text>
+  <text x="82" y="218" fill="rgba(255,255,255,0.3)" font-size="10" font-family="monospace">  Tests: 3 passed (3 assertions)</text>
+  <text x="82" y="234" fill="rgba(255,255,255,0.3)" font-size="10" font-family="monospace">  Duration: 0.38s</text>
+  <text x="82" y="268" fill="rgba(255,255,255,0.12)" font-size="10" font-family="monospace">$ phpunit --filter NodeTest --colors=always</text>
+  <!-- Right panel -->
+  <rect x="564" y="58" width="178" height="232" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="653" y="84" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="9" font-family="monospace" letter-spacing="2">AI-AGNOSTIC</text>
+  <rect x="582" y="96" width="100" height="6" rx="3" fill="rgba(255,255,255,0.18)"/>
+  <text x="582" y="114" fill="rgba(255,255,255,0.35)" font-size="9" font-family="monospace">Claude Code ✓</text>
+  <text x="582" y="130" fill="rgba(255,255,255,0.35)" font-size="9" font-family="monospace">Cursor ✓</text>
+  <text x="582" y="146" fill="rgba(255,255,255,0.35)" font-size="9" font-family="monospace">Cline ✓</text>
+  <text x="582" y="162" fill="rgba(255,255,255,0.35)" font-size="9" font-family="monospace">Copilot ✓</text>
+  <text x="653" y="210" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-size="8" font-family="monospace">Drupal 10 · PHP 8</text>
+  <text x="653" y="226" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-size="8" font-family="monospace">PHPUnit · Behat</text>
+  <rect x="0" y="280" width="800" height="100" fill="url(#fade)"/>
+</svg>
