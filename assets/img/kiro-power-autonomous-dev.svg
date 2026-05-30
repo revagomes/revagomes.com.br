@@ -1,0 +1,52 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10302a"/>
+      <stop offset="100%" stop-color="#1e7a5e"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(16,48,42,0.7)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#bg)"/>
+  <circle cx="700" cy="55" r="130" fill="rgba(255,255,255,0.04)"/>
+  <!-- Main trunk -->
+  <line x1="120" y1="190" x2="220" y2="190" stroke="rgba(100,255,200,0.6)" stroke-width="2"/>
+  <!-- Branch to agent 1 -->
+  <line x1="220" y1="190" x2="340" y2="110" stroke="rgba(100,255,200,0.5)" stroke-width="1.5"/>
+  <!-- Branch to agent 2 -->
+  <line x1="220" y1="190" x2="340" y2="190" stroke="rgba(100,255,200,0.5)" stroke-width="1.5"/>
+  <!-- Branch to agent 3 -->
+  <line x1="220" y1="190" x2="340" y2="270" stroke="rgba(100,255,200,0.5)" stroke-width="1.5"/>
+  <!-- Agent circles -->
+  <circle cx="370" cy="110" r="28" fill="rgba(16,48,42,0.7)" stroke="rgba(100,255,200,0.5)" stroke-width="1.5"/>
+  <text x="370" y="106" text-anchor="middle" fill="rgba(100,255,200,0.7)" font-size="9" font-family="monospace">Agent</text>
+  <text x="370" y="118" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="9" font-family="monospace">#1</text>
+  <circle cx="370" cy="190" r="28" fill="rgba(16,48,42,0.7)" stroke="rgba(100,255,200,0.5)" stroke-width="1.5"/>
+  <text x="370" y="186" text-anchor="middle" fill="rgba(100,255,200,0.7)" font-size="9" font-family="monospace">Agent</text>
+  <text x="370" y="198" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="9" font-family="monospace">#2</text>
+  <circle cx="370" cy="270" r="28" fill="rgba(16,48,42,0.7)" stroke="rgba(100,255,200,0.5)" stroke-width="1.5"/>
+  <text x="370" y="266" text-anchor="middle" fill="rgba(100,255,200,0.7)" font-size="9" font-family="monospace">Agent</text>
+  <text x="370" y="278" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="9" font-family="monospace">#3</text>
+  <!-- PR arrows to merge -->
+  <line x1="398" y1="110" x2="520" y2="155" stroke="rgba(100,255,200,0.35)" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="398" y1="190" x2="520" y2="175" stroke="rgba(100,255,200,0.35)" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="398" y1="270" x2="520" y2="195" stroke="rgba(100,255,200,0.35)" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- PR badge -->
+  <rect x="520" y="148" width="56" height="36" rx="4" fill="rgba(30,122,94,0.3)" stroke="rgba(100,255,200,0.35)" stroke-width="1"/>
+  <text x="548" y="163" text-anchor="middle" fill="rgba(100,255,200,0.8)" font-size="9" font-family="monospace" font-weight="bold">3 PRs</text>
+  <text x="548" y="177" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="9" font-family="monospace">review</text>
+  <!-- Review arrow to merge trunk -->
+  <line x1="576" y1="166" x2="650" y2="166" stroke="rgba(100,255,200,0.5)" stroke-width="2"/>
+  <!-- Merge circle -->
+  <circle cx="670" cy="166" r="18" fill="rgba(16,48,42,0.8)" stroke="rgba(100,255,200,0.7)" stroke-width="2"/>
+  <text x="670" y="162" text-anchor="middle" fill="rgba(100,255,200,0.9)" font-size="8" font-family="monospace">merge</text>
+  <text x="670" y="174" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="9" font-family="monospace">✓</text>
+  <!-- Commit dot -->
+  <circle cx="120" cy="190" r="8" fill="rgba(100,255,200,0.5)" stroke="rgba(100,255,200,0.8)" stroke-width="1.5"/>
+  <text x="120" y="215" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="9" font-family="monospace">main</text>
+  <!-- Label -->
+  <text x="400" y="330" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace" letter-spacing="1">git worktrees · parallel agents · PR review</text>
+  <rect x="0" y="280" width="800" height="100" fill="url(#fade)"/>
+</svg>
