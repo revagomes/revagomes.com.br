@@ -248,6 +248,46 @@ header .container {
 }
 
 /* =============================================
+   Side Projects — category headings & intro
+   ============================================= */
+
+.section-intro {
+  color: #888;
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 680px;
+  margin: 0 auto 32px;
+}
+
+.side-projects-category {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #553576;
+  margin: 36px 0 18px;
+  padding-left: 12px;
+  border-left: 3px solid #553576;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.on-hold-badge,
+.archived-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.on-hold-badge  { background: #b8860b; }
+.archived-badge { background: #aaa; }
+
+/* =============================================
    Work Catalog — Project Cards
    ============================================= */
 
