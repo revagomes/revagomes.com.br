@@ -509,75 +509,160 @@
           <div class="col-lg-12 text-center">
             <h2>Side Projects</h2>
             <hr class="star-primary">
+            <p class="section-intro">A collection of open-source tools, Drupal resources, social impact initiatives, and creative projects built over the years — from browser extensions and AI agent skills to a multiplayer game, an NGO, and a punk band.</p>
           </div>
         </div>
-        <div class="row portfolio-row">
-          <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="./assets/img/oqueedrupal.png" class="img-responsive" alt="O que é Drupal?">
-            </a>
-            <p class="side-project-title">O que é Drupal?</p>
+
+        <!-- Drupal & CMS -->
+        <section aria-label="Drupal and CMS projects">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="side-projects-category">Drupal &amp; CMS</h3>
+            </div>
           </div>
-          <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
+          <div class="row work-grid">
+
+            <div class="col-sm-6 col-md-4 work-item">
+              <article class="work-card" itemscope itemtype="https://schema.org/WebSite">
+                <div class="work-card-image">
+                  <img src="./assets/img/oqueedrupal.png" class="work-img" alt="O que é Drupal? — Portuguese Drupal introduction website" itemprop="image">
+                  <div class="work-image-overlay wh-dev">
+                    <span class="work-category">CMS &middot; Community</span>
+                  </div>
                 </div>
-              </div>
-              <img src="./assets/img/drupalizando.png" class="img-responsive" alt="Drupalizando">
-            </a>
-            <p class="side-project-title">Drupalizando</p>
+                <div class="work-card-body">
+                  <h4 class="work-title" itemprop="name"><span lang="pt">O que é Drupal?</span></h4>
+                  <p class="work-role">Open Source &middot; Website</p>
+                  <p class="work-desc" itemprop="description">A Portuguese localisation of the "What is Drupal?" community website, introducing Drupal to Brazilian and Portuguese-speaking developers.</p>
+                  <div class="work-tags">
+                    <span class="tag" itemprop="keywords">Drupal</span>
+                    <span class="tag">CMS</span>
+                    <span class="tag">Portuguese</span>
+                    <span class="tag">Design</span>
+                  </div>
+                </div>
+                <div class="work-card-footer">
+                  <a href="https://oqueedrupal.org" class="work-link" target="_blank" rel="noopener noreferrer" itemprop="url">View Project <i class="fa fa-long-arrow-right"></i></a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-sm-6 col-md-4 work-item">
+              <article class="work-card" itemscope itemtype="https://schema.org/WebSite">
+                <div class="work-card-image">
+                  <img src="./assets/img/drupalizando.png" class="work-img" alt="Drupalizando — free Drupal video training platform" itemprop="image">
+                  <div class="work-image-overlay wh-dev">
+                    <span class="work-category">Training &middot; Video</span>
+                  </div>
+                </div>
+                <div class="work-card-body">
+                  <h4 class="work-title" itemprop="name"><span lang="pt">Drupalizando</span></h4>
+                  <p class="work-role">Open Source &middot; Free Training Platform</p>
+                  <p class="work-desc" itemprop="description">Free Drupal video training platform empowering individuals, small businesses, and NGOs to build websites. Access the course by sharing your skills with someone else.</p>
+                  <div class="work-tags">
+                    <span class="tag" itemprop="keywords">Drupal</span>
+                    <span class="tag">Training</span>
+                    <span class="tag">Video</span>
+                    <span class="tag">Design</span>
+                  </div>
+                </div>
+                <div class="work-card-footer">
+                  <a href="http://drupalizando.com.br" class="work-link" target="_blank" rel="noopener noreferrer" itemprop="url">View Project <i class="fa fa-long-arrow-right"></i></a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-sm-6 col-md-4 work-item">
+              <article class="work-card" itemscope itemtype="https://schema.org/SoftwareApplication">
+                <div class="work-card-image">
+                  <img src="./assets/img/dhrome.png" class="work-img" alt="Dhrome — Chrome extension for Drupal developers" itemprop="image">
+                  <div class="work-image-overlay wh-dev">
+                    <span class="work-category">Chrome Extension</span>
+                  </div>
+                </div>
+                <div class="work-card-body">
+                  <h4 class="work-title" itemprop="name">Dhrome</h4>
+                  <p class="work-role">Open Source &middot; Browser Extension</p>
+                  <p class="work-desc" itemprop="description">A Chrome browser extension for Drupal developers. Access Drupal documentation, module pages, and community resources directly from the address bar.</p>
+                  <div class="work-tags">
+                    <span class="tag" itemprop="keywords">Chrome Extension</span>
+                    <span class="tag">Drupal</span>
+                    <span class="tag">JavaScript</span>
+                  </div>
+                </div>
+                <div class="work-card-footer">
+                  <a href="https://dhrome.github.io/dhrome" class="work-link" target="_blank" rel="noopener noreferrer" itemprop="url">Install Extension <i class="fa fa-long-arrow-right"></i></a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-sm-6 col-md-4 work-item">
+              <article class="work-card" itemscope itemtype="https://schema.org/SoftwareApplication">
+                <div class="work-card-image">
+                  <img src="./assets/img/drupal-tdd-skill.svg" class="work-img" alt="Drupal TDD Skill — provider-agnostic AI skill for test-driven Drupal development" itemprop="image">
+                  <div class="work-image-overlay wh-dev">
+                    <span class="work-category">AI Skill &middot; DevTools</span>
+                  </div>
+                </div>
+                <div class="work-card-body">
+                  <h4 class="work-title" itemprop="name">Drupal TDD Skill</h4>
+                  <p class="work-role">Open Source &middot; AI Agent Skill</p>
+                  <p class="work-desc" itemprop="description">Provider-agnostic TDD workflow skill for Drupal development. Works with Claude Code, Cursor, Cline, Copilot, and any AI coding assistant that supports custom skills.</p>
+                  <div class="work-tags">
+                    <span class="tag" itemprop="keywords">Drupal</span>
+                    <span class="tag">TDD</span>
+                    <span class="tag">AI</span>
+                    <span class="tag">DevTools</span>
+                  </div>
+                </div>
+                <div class="work-card-footer">
+                  <a href="https://github.com/revagomes/drupal-tdd-skill" class="work-link" target="_blank" rel="noopener noreferrer" itemprop="url">View on GitHub <i class="fa fa-long-arrow-right"></i></a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-sm-6 col-md-4 work-item">
+              <article class="work-card" itemscope itemtype="https://schema.org/SoftwareApplication">
+                <div class="work-card-image">
+                  <img src="./assets/img/ec-europa-drupal-quality.svg" class="work-img" alt="EC Europa Drupal Quality — quality gates toolkit for OpenEuropa Drupal projects" itemprop="image">
+                  <div class="work-image-overlay wh-dev">
+                    <span class="work-category">Quality Gates &middot; PHP</span>
+                  </div>
+                </div>
+                <div class="work-card-body">
+                  <h4 class="work-title" itemprop="name">EC Europa Drupal Quality</h4>
+                  <p class="work-role">Open Source &middot; DevOps Toolkit</p>
+                  <p class="work-desc" itemprop="description">Quality gates toolkit for OpenEuropa Drupal projects — integrates PHPCS, PHPStan, PHPUnit, and Behat with EC Europa configuration management standards.</p>
+                  <div class="work-tags">
+                    <span class="tag" itemprop="keywords">Drupal</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">Quality</span>
+                    <span class="tag">OpenEuropa</span>
+                  </div>
+                </div>
+                <div class="work-card-footer">
+                  <a href="https://github.com/revagomes/kiro-power-ec-europa-drupal-quality" class="work-link" target="_blank" rel="noopener noreferrer" itemprop="url">View on GitHub <i class="fa fa-long-arrow-right"></i></a>
+                </div>
+              </article>
+            </div>
+
           </div>
-          <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="./assets/img/nomastersproject.png" class="img-responsive" alt="No Masters Project">
-            </a>
-            <p class="side-project-title">No Masters Project</p>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="./assets/img/dhrome.png" class="img-responsive" alt="Dhrome">
-            </a>
-            <p class="side-project-title">Dhrome</p>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="./assets/img/nomasterspunk.jpg" class="img-responsive" alt="No Masters — Anarcopunk Band">
-            </a>
-            <p class="side-project-title">No Masters <span class="side-project-type">Band</span></p>
-          </div>
-          <!-- <div class="col-sm-4 portfolio-item">
-            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="./assets/img/project6.png" class="img-responsive" alt="">
-            </a>
-          </div> -->
-        </div>
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Drupal & CMS Projects by Renato Vasconcellos Gomes",
+            "itemListElement": [
+              {"@type":"WebSite","position":1,"name":"O que é Drupal?","description":"A Portuguese localisation of the What is Drupal? community website.","url":"https://oqueedrupal.org","inLanguage":"pt"},
+              {"@type":"WebSite","position":2,"name":"Drupalizando","description":"Free Drupal video training platform empowering individuals and small businesses.","url":"http://drupalizando.com.br","inLanguage":"pt"},
+              {"@type":"SoftwareApplication","position":3,"name":"Dhrome","description":"A Chrome browser extension for Drupal developers.","url":"https://dhrome.github.io/dhrome","applicationCategory":"BrowserApplication","programmingLanguage":"JavaScript"},
+              {"@type":"SoftwareApplication","position":4,"name":"Drupal TDD Skill","description":"Provider-agnostic TDD workflow skill for Drupal, compatible with Claude Code, Cursor, Cline, and Copilot.","url":"https://github.com/revagomes/drupal-tdd-skill","applicationCategory":"DeveloperApplication"},
+              {"@type":"SoftwareApplication","position":5,"name":"EC Europa Drupal Quality","description":"Quality gates toolkit for OpenEuropa Drupal projects integrating PHPCS, PHPStan, PHPUnit, and Behat.","url":"https://github.com/revagomes/kiro-power-ec-europa-drupal-quality","applicationCategory":"DeveloperApplication","programmingLanguage":"PHP"}
+            ]
+          }
+          </script>
+        </section>
+
       </div>
     </section>
 
