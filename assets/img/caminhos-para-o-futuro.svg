@@ -1,0 +1,50 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f233d"/>
+      <stop offset="100%" stop-color="#1a5491"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(15,35,61,0.7)"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(100,180,255,0.6)"/>
+      <stop offset="100%" stop-color="rgba(100,180,255,0.15)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#bg)"/>
+  <!-- Stars in sky -->
+  <text x="120" y="80" fill="rgba(255,220,100,0.6)" font-size="14">★</text>
+  <text x="220" y="55" fill="rgba(255,220,100,0.4)" font-size="10">★</text>
+  <text x="320" y="70" fill="rgba(255,220,100,0.5)" font-size="12">★</text>
+  <text x="160" y="110" fill="rgba(255,220,100,0.3)" font-size="8">★</text>
+  <text x="270" y="95" fill="rgba(255,220,100,0.35)" font-size="9">★</text>
+  <text x="400" y="60" fill="rgba(255,220,100,0.45)" font-size="11">★</text>
+  <!-- Road/path (perspective) -->
+  <path d="M 100 310 Q 260 260 400 180 Q 500 120 560 80" fill="none" stroke="url(#road)" stroke-width="40" stroke-linecap="round"/>
+  <path d="M 100 310 Q 260 260 400 180 Q 500 120 560 80" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2" stroke-dasharray="12,8"/>
+  <!-- Heart -->
+  <path d="M 430 200 C 430 190 418 182 410 190 C 402 182 390 190 390 200 C 390 218 410 230 410 230 C 410 230 430 218 430 200 Z" fill="rgba(255,100,150,0.6)" stroke="rgba(255,150,180,0.4)" stroke-width="1"/>
+  <!-- Youth figures -->
+  <circle cx="190" cy="250" r="12" fill="rgba(100,180,255,0.4)" stroke="rgba(100,180,255,0.6)" stroke-width="1"/>
+  <line x1="190" y1="262" x2="190" y2="295" stroke="rgba(100,180,255,0.4)" stroke-width="2"/>
+  <line x1="178" y1="275" x2="202" y2="275" stroke="rgba(100,180,255,0.4)" stroke-width="2"/>
+  <circle cx="240" cy="235" r="12" fill="rgba(100,180,255,0.4)" stroke="rgba(100,180,255,0.6)" stroke-width="1"/>
+  <line x1="240" y1="247" x2="240" y2="280" stroke="rgba(100,180,255,0.4)" stroke-width="2"/>
+  <line x1="228" y1="260" x2="252" y2="260" stroke="rgba(100,180,255,0.4)" stroke-width="2"/>
+  <!-- Laptop/tech symbol at horizon -->
+  <rect x="530" y="90" width="50" height="34" rx="3" fill="rgba(100,180,255,0.2)" stroke="rgba(100,180,255,0.4)" stroke-width="1"/>
+  <rect x="522" y="124" width="66" height="5" rx="2" fill="rgba(100,180,255,0.25)"/>
+  <rect x="538" y="100" width="34" height="18" rx="1" fill="rgba(0,0,0,0.3)"/>
+  <text x="555" y="113" text-anchor="middle" fill="rgba(100,255,200,0.6)" font-size="8" font-family="monospace">&gt;_</text>
+  <!-- Right info panel -->
+  <rect x="620" y="68" width="145" height="180" rx="5" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <text x="692" y="90" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="8" font-family="monospace" letter-spacing="2">ACF</text>
+  <rect x="636" y="100" width="112" height="1" fill="rgba(255,255,255,0.08)"/>
+  <text x="636" y="118" fill="rgba(255,255,255,0.4)" font-size="9" font-family="monospace">🎓 Educação</text>
+  <text x="636" y="136" fill="rgba(255,255,255,0.4)" font-size="9" font-family="monospace">💻 Tecnologia</text>
+  <text x="636" y="154" fill="rgba(255,255,255,0.4)" font-size="9" font-family="monospace">🤝 Humano</text>
+  <text x="692" y="192" text-anchor="middle" fill="rgba(255,255,255,0.15)" font-size="8" font-family="monospace">BH · Brasil · 2021</text>
+  <rect x="0" y="280" width="800" height="100" fill="url(#fade)"/>
+</svg>

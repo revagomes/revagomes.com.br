@@ -1,0 +1,57 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f233d"/>
+      <stop offset="100%" stop-color="#1a5491"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(15,35,61,0.7)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="url(#bg)"/>
+  <circle cx="700" cy="55" r="130" fill="rgba(255,255,255,0.04)"/>
+  <!-- Game board (6x5 grid) -->
+  <rect x="70" y="60" width="390" height="260" rx="6" fill="rgba(0,0,0,0.35)" stroke="rgba(100,180,255,0.3)" stroke-width="1.5"/>
+  <!-- Grid lines vertical -->
+  <line x1="135" y1="60" x2="135" y2="320" stroke="rgba(100,180,255,0.12)" stroke-width="1"/>
+  <line x1="200" y1="60" x2="200" y2="320" stroke="rgba(100,180,255,0.12)" stroke-width="1"/>
+  <line x1="265" y1="60" x2="265" y2="320" stroke="rgba(100,180,255,0.12)" stroke-width="1"/>
+  <line x1="330" y1="60" x2="330" y2="320" stroke="rgba(100,180,255,0.12)" stroke-width="1"/>
+  <line x1="395" y1="60" x2="395" y2="320" stroke="rgba(100,180,255,0.12)" stroke-width="1"/>
+  <!-- Grid lines horizontal -->
+  <line x1="70" y1="112" x2="460" y2="112" stroke="rgba(100,180,255,0.12)" stroke-width="1"/>
+  <line x1="70" y1="164" x2="460" y2="164" stroke="rgba(100,180,255,0.12)" stroke-width="1"/>
+  <line x1="70" y1="216" x2="460" y2="216" stroke="rgba(100,180,255,0.12)" stroke-width="1"/>
+  <line x1="70" y1="268" x2="460" y2="268" stroke="rgba(100,180,255,0.12)" stroke-width="1"/>
+  <!-- Player 1 pieces (blue) -->
+  <circle cx="102" cy="86" r="18" fill="rgba(26,84,145,0.7)" stroke="rgba(100,180,255,0.7)" stroke-width="1.5"/>
+  <text x="102" y="90" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="monospace" font-weight="bold">10</text>
+  <circle cx="167" cy="86" r="18" fill="rgba(26,84,145,0.7)" stroke="rgba(100,180,255,0.7)" stroke-width="1.5"/>
+  <text x="167" y="90" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="monospace" font-weight="bold">5</text>
+  <circle cx="232" cy="86" r="18" fill="rgba(26,84,145,0.7)" stroke="rgba(100,180,255,0.7)" stroke-width="1.5"/>
+  <text x="232" y="90" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="monospace" font-weight="bold">3</text>
+  <circle cx="102" cy="138" r="18" fill="rgba(26,84,145,0.7)" stroke="rgba(100,180,255,0.7)" stroke-width="1.5"/>
+  <text x="102" y="142" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="monospace" font-weight="bold">B</text>
+  <!-- Player 2 pieces (red) -->
+  <circle cx="362" cy="294" r="18" fill="rgba(120,20,20,0.7)" stroke="rgba(255,120,100,0.7)" stroke-width="1.5"/>
+  <text x="362" y="298" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="monospace" font-weight="bold">7</text>
+  <circle cx="297" cy="294" r="18" fill="rgba(120,20,20,0.7)" stroke="rgba(255,120,100,0.7)" stroke-width="1.5"/>
+  <text x="297" y="298" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="monospace" font-weight="bold">4</text>
+  <circle cx="427" cy="294" r="18" fill="rgba(120,20,20,0.7)" stroke="rgba(255,120,100,0.7)" stroke-width="1.5"/>
+  <text x="427" y="298" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="monospace" font-weight="bold">9</text>
+  <circle cx="362" cy="242" r="18" fill="rgba(120,20,20,0.7)" stroke="rgba(255,120,100,0.7)" stroke-width="1.5"/>
+  <text x="362" y="246" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="monospace" font-weight="bold">F</text>
+  <!-- Right panel -->
+  <rect x="500" y="68" width="250" height="215" rx="6" fill="rgba(0,0,0,0.28)" stroke="rgba(100,180,255,0.15)" stroke-width="1"/>
+  <text x="625" y="94" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="9" font-family="monospace" letter-spacing="2">REALTIME</text>
+  <circle cx="540" cy="128" r="6" fill="rgba(100,255,100,0.7)"/>
+  <text x="556" y="132" fill="rgba(255,255,255,0.5)" font-size="10" font-family="monospace">Player 1 connected</text>
+  <circle cx="540" cy="152" r="6" fill="rgba(100,255,100,0.7)"/>
+  <text x="556" y="156" fill="rgba(255,255,255,0.5)" font-size="10" font-family="monospace">Player 2 connected</text>
+  <rect x="516" y="175" width="218" height="1" fill="rgba(255,255,255,0.08)"/>
+  <text x="625" y="200" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="10" font-family="monospace">Socket.io · Node.js</text>
+  <text x="625" y="218" text-anchor="middle" fill="rgba(255,255,255,0.18)" font-size="9" font-family="monospace">Node Knockout 2013</text>
+  <text x="400" y="348" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace" letter-spacing="1">Multiplayer · Stratego-like · Hackathon</text>
+  <rect x="0" y="280" width="800" height="100" fill="url(#fade)"/>
+</svg>
