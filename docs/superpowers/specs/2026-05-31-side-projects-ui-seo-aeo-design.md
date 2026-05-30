@@ -37,11 +37,13 @@ The `#side-projects` section gets three semantic sub-sections, each with an `<h3
 | Kiro Power: AI Agent Security | https://github.com/revagomes/kiro-power-ai-agent-security | GitHub | `AI Security` `DevTools` `Prompt Injection` |
 | sshconfig | https://github.com/revagomes/sshconfig | GitHub | `Node.js` `CLI` `SSH` `DevTools` |
 
-### Category 3 — Games & Community (3 projects)
+### Category 3 — Games, Community & Social Impact (5 projects)
 
 | Project | URL | Status | Tags |
 |---|---|---|---|
 | Peleia Braba | https://github.com/revagomes/peleia-braba | GitHub (deploy pending) | `Node.js` `Socket.io` `Multiplayer` `Hackathon` |
+| Associação Caminhos para o Futuro (ACF) | https://www.instagram.com/acaminhoparaofuturo | Live | `NGO` `Education` `Technology` `Social Impact` `Brazil` |
+| Novos Titans Programadores | http://novostitas.org | On Hold | `Education` `Tech Training` `NGO` `Youth` `Brazil` |
 | No Masters Project | http://nomasters.tk | On Hold | `Community` `DIY` `Libertarian` `Design` |
 | No Masters Band | https://www.facebook.com/nomasters | Live | `Music` `Anarcopunk` `Band` `Brazil` |
 
@@ -129,6 +131,8 @@ New projects without screenshots get a purpose-built SVG illustration following 
 | Kiro Power: AI Agent Security | `assets/img/kiro-power-ai-agent-security.svg` |
 | sshconfig | `assets/img/sshconfig.svg` |
 | Peleia Braba | `assets/img/peleia-braba.svg` |
+| Associação Caminhos para o Futuro | `assets/img/caminhos-para-o-futuro.svg` |
+| Novos Titans Programadores | `assets/img/novos-titans-programadores.svg` |
 
 SVG style: flat, centered icon on solid background matching the category accent color, 400×300px viewBox.
 
@@ -148,9 +152,9 @@ SVG style: flat, centered icon on solid background matching the category accent 
         <h2>Side Projects</h2>
         <hr class="star-primary">
         <p class="section-intro">
-          A collection of open-source tools, Drupal resources, and creative projects
-          built over the years — from browser extensions and AI agent skills
-          to a multiplayer game and a punk band.
+          A collection of open-source tools, Drupal resources, social impact initiatives,
+          and creative projects built over the years — from browser extensions and AI agent
+          skills to a multiplayer game, an NGO, and a punk band.
         </p>
       </div>
     </div>
@@ -166,7 +170,7 @@ SVG style: flat, centered icon on solid background matching the category accent 
     <section aria-label="AI and Developer Tools projects">…</section>
 
     <!-- Category 3 -->
-    <section aria-label="Games and Community projects">…</section>
+    <section aria-label="Games, Community and Social Impact projects">…</section>
 
   </div>
 </section>
@@ -203,7 +207,7 @@ Example for Dhrome:
 
 The visible intro paragraph under `<h2>` serves as the AEO anchor: AI agents reading the page extract this as a summary of the section without parsing individual cards. It should be factual and specific — not marketing copy.
 
-> "A collection of open-source tools, Drupal resources, and creative projects built over the years — from browser extensions and AI agent skills to a multiplayer game and a punk band."
+> "A collection of open-source tools, Drupal resources, social impact initiatives, and creative projects built over the years — from browser extensions and AI agent skills to a multiplayer game, an NGO, and a punk band."
 
 ---
 
@@ -217,8 +221,24 @@ The visible intro paragraph under `<h2>` serves as the AEO anchor: AI agents rea
 
 ---
 
-## Out of Scope
+## Future Phase — Design & Creative Portfolio
 
+The following project types are confirmed for a future phase of the Side Projects section. They warrant a potential fourth category: **Design & Creative**.
+
+| Type | Examples | Notes |
+|---|---|---|
+| Logo design | A Caminho para o Futuro NGO logo | Reva designed it — link to asset or case study |
+| Web design | Client/NGO web design work | Screenshots + brief + context |
+| Drawing projects | Personal illustration work | Images + medium + year |
+| Lecture slides | Talks at open-source events (DrupalCamp, etc.) | Link to slide decks (Speakerdeck/PDF) |
+
+This phase is out of scope for the current implementation but the card component and category structure already support it — adding a fourth `<section>` with `<h3>Design & Creative</h3>` requires no CSS changes.
+
+---
+
+## Out of Scope (Phase 1)
+
+- Design & Creative category (future phase — see above)
 - Drupalizando evolution (separate project — see memory)
 - Peleia Braba deployment to Cloudflare (separate project — see memory)
 - Any other section of `index.html`
