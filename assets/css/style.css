@@ -186,6 +186,10 @@ header .container {
   margin: 0 auto 32px;
 }
 
+#side-projects section {
+  padding: 0;
+}
+
 .side-projects-category {
   font-size: 11px;
   font-weight: 700;
