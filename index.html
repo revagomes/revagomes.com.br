@@ -32,6 +32,9 @@
     <!-- End Google Tag Manager -->
 
     <title>Reva - Portfolio</title>
+    <link rel="alternate" hreflang="en" href="https://revagomes.com.br/">
+    <link rel="alternate" hreflang="pt-BR" href="https://revagomes.com.br/?lang=pt">
+    <link rel="alternate" hreflang="x-default" href="https://revagomes.com.br/">
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
@@ -81,19 +84,21 @@
               <a href="#page-top"></a>
             </li>
             <li class="page-scroll">
-              <a href="#portfolio">Portfolio</a>
+              <a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a>
             </li>
             <li class="page-scroll">
-              <a href="#aprender-drupal">Book</a>
+              <a href="#aprender-drupal" data-i18n="nav.book">Book</a>
             </li>
             <li class="page-scroll">
-              <a href="#about">About</a>
+              <a href="#about" data-i18n="nav.about">About</a>
             </li>
             <li class="page-scroll">
-              <a href="#contact">Contact</a>
+              <a href="#contact" data-i18n="nav.contact">Contact</a>
             </li>
-            <li>
-              <div id="google_translate_element"></div>
+            <li class="lang-toggle">
+              <a href="/" class="lang-btn lang-btn--active" data-lang="en">EN</a>
+              <span class="lang-sep">|</span>
+              <a href="/?lang=pt" class="lang-btn" data-lang="pt">PT</a>
             </li>
           </ul>
         </div>
@@ -111,9 +116,9 @@
             <div class="intro-text">
               <span class="name">Reva</span>
               <hr class="star-light">
-              <span class="skills">Senior Drupal Engineer &amp; Full Stack Developer</span>
+              <span class="skills" data-i18n="hero.role">Senior Drupal Engineer &amp; Full Stack Developer</span>
               <br>
-              <span class="skills">10+ years building enterprise web platforms &middot; Brussels, Belgium</span>
+              <span class="skills" data-i18n="hero.location">10+ years building enterprise web platforms &middot; Brussels, Belgium</span>
               <hr>
               <span class="page-scroll icon-scroll"><a href="#portfolio" class="btn-social btn-outline"><i class="fa fa-angle-double-down"></i></a></span>
             </div>
@@ -127,7 +132,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>Work</h2>
+            <h2 data-i18n="work.heading">Work</h2>
             <hr class="star-primary">
           </div>
         </div>
@@ -145,8 +150,8 @@
               </div>
               <div class="work-card-body">
                 <h4 class="work-title">Portal Claro Brasil</h4>
-                <p class="work-role">Senior Drupal Engineer &middot; Claro + Ogilvy Brasil</p>
-                <p class="work-desc">High-availability rebuild of Claro Brazil's portal with geolocation-based content delivery, advanced Apache Solr search, and improved editorial workflows.</p>
+                <p class="work-role" data-i18n="work.w01.role">Senior Drupal Engineer &middot; Claro + Ogilvy Brasil</p>
+                <p class="work-desc" data-i18n="work.w01.desc">High-availability rebuild of Claro Brazil's portal with geolocation-based content delivery, advanced Apache Solr search, and improved editorial workflows.</p>
                 <div class="work-tags">
                   <span class="tag">Drupal</span>
                   <span class="tag">Apache Solr</span>
@@ -156,7 +161,7 @@
                 </div>
               </div>
               <div class="work-card-footer">
-                <a href="#workModal1" class="work-link" data-toggle="modal">View Details <i class="fa fa-long-arrow-right"></i></a>
+                <a href="#workModal1" class="work-link" data-toggle="modal" data-i18n="work.view_details">View Details <i class="fa fa-long-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -173,8 +178,8 @@
               </div>
               <div class="work-card-body">
                 <h4 class="work-title">Claro Promoções</h4>
-                <p class="work-role">Senior Drupal Engineer &middot; Ogilvy Brazil + Claro</p>
-                <p class="work-desc">Social marketing campaign builder for Latin America's largest telecom, enabling fortnightly campaign launches with multimedia content, social network integration, and SEO analytics.</p>
+                <p class="work-role" data-i18n="work.w02.role">Senior Drupal Engineer &middot; Ogilvy Brazil + Claro</p>
+                <p class="work-desc" data-i18n="work.w02.desc">Social marketing campaign builder for Latin America's largest telecom, enabling fortnightly campaign launches with multimedia content, social network integration, and SEO analytics.</p>
                 <div class="work-tags">
                   <span class="tag">Drupal</span>
                   <span class="tag">PHP</span>
@@ -184,7 +189,7 @@
                 </div>
               </div>
               <div class="work-card-footer">
-                <a href="#workModal2" class="work-link" data-toggle="modal">View Details <i class="fa fa-long-arrow-right"></i></a>
+                <a href="#workModal2" class="work-link" data-toggle="modal" data-i18n="work.view_details">View Details <i class="fa fa-long-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -201,8 +206,8 @@
               </div>
               <div class="work-card-body">
                 <h4 class="work-title">Portal Intelbras</h4>
-                <p class="work-role">Senior Drupal Engineer &middot; Intelbras</p>
-                <p class="work-desc">Institutional channel and product catalog for Intelbras, one of Brazil's leading electronics manufacturers.</p>
+                <p class="work-role" data-i18n="work.w03.role">Senior Drupal Engineer &middot; Intelbras</p>
+                <p class="work-desc" data-i18n="work.w03.desc">Institutional channel and product catalog for Intelbras, one of Brazil's leading electronics manufacturers.</p>
                 <div class="work-tags">
                   <span class="tag">Drupal</span>
                   <span class="tag">PHP</span>
@@ -210,7 +215,7 @@
                 </div>
               </div>
               <div class="work-card-footer">
-                <a href="#workModal3" class="work-link" data-toggle="modal">View Details <i class="fa fa-long-arrow-right"></i></a>
+                <a href="#workModal3" class="work-link" data-toggle="modal" data-i18n="work.view_details">View Details <i class="fa fa-long-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -227,8 +232,8 @@
               </div>
               <div class="work-card-body">
                 <h4 class="work-title">Portal FIESC</h4>
-                <p class="work-role">Senior Drupal Engineer &middot; FIESC</p>
-                <p class="work-desc">Institutional portal for FIESC — Federação das Indústrias de Santa Catarina — one of the major industry federations in Brazil.</p>
+                <p class="work-role" data-i18n="work.w04.role">Senior Drupal Engineer &middot; FIESC</p>
+                <p class="work-desc" data-i18n="work.w04.desc">Institutional portal for FIESC — Federação das Indústrias de Santa Catarina — one of the major industry federations in Brazil.</p>
                 <div class="work-tags">
                   <span class="tag">Drupal</span>
                   <span class="tag">PHP</span>
@@ -236,7 +241,7 @@
                 </div>
               </div>
               <div class="work-card-footer">
-                <a href="#workModal4" class="work-link" data-toggle="modal">View Details <i class="fa fa-long-arrow-right"></i></a>
+                <a href="#workModal4" class="work-link" data-toggle="modal" data-i18n="work.view_details">View Details <i class="fa fa-long-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -253,8 +258,8 @@
               </div>
               <div class="work-card-body">
                 <h4 class="work-title">PECE</h4>
-                <p class="work-role">Tech Lead &amp; Drupal Architect &middot; UCI</p>
-                <p class="work-desc">Open source Drupal-based platform for multi-sited collaborative ethnographic research, enabling data archiving, analytic collaboration, and experimental publication modes.</p>
+                <p class="work-role" data-i18n="work.w05.role">Tech Lead &amp; Drupal Architect &middot; UCI</p>
+                <p class="work-desc" data-i18n="work.w05.desc">Open source Drupal-based platform for multi-sited collaborative ethnographic research, enabling data archiving, analytic collaboration, and experimental publication modes.</p>
                 <div class="work-tags">
                   <span class="tag">Drupal</span>
                   <span class="tag">PHP</span>
@@ -263,7 +268,7 @@
                 </div>
               </div>
               <div class="work-card-footer">
-                <a href="#workModal5" class="work-link" data-toggle="modal">View Details <i class="fa fa-long-arrow-right"></i></a>
+                <a href="#workModal5" class="work-link" data-toggle="modal" data-i18n="work.view_details">View Details <i class="fa fa-long-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -280,8 +285,8 @@
               </div>
               <div class="work-card-body">
                 <h4 class="work-title">Natura - Cobnet</h4>
-                <p class="work-role">Full Stack Developer &middot; Natura Brasil</p>
-                <p class="work-desc">Intranet system managing payments and commissioning for Natura's nationwide network of representatives and resellers.</p>
+                <p class="work-role" data-i18n="work.w06.role">Full Stack Developer &middot; Natura Brasil</p>
+                <p class="work-desc" data-i18n="work.w06.desc">Intranet system managing payments and commissioning for Natura's nationwide network of representatives and resellers.</p>
                 <div class="work-tags">
                   <span class="tag">Drupal</span>
                   <span class="tag">PHP</span>
@@ -290,7 +295,7 @@
                 </div>
               </div>
               <div class="work-card-footer">
-                <a href="#workModal6" class="work-link" data-toggle="modal">View Details <i class="fa fa-long-arrow-right"></i></a>
+                <a href="#workModal6" class="work-link" data-toggle="modal" data-i18n="work.view_details">View Details <i class="fa fa-long-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -303,9 +308,9 @@
     <section id="aprender-drupal">
       <div class="container">
         <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <p class="book-lang-label">Published book — available in Portuguese, Spanish &amp; <a href="https://leanpub.com/drupal-9" style="color:rgba(255,255,255,0.75);border-bottom:dotted 1px;">English</a></p>
+          <p class="book-lang-label" data-i18n="book.lang_label">Published book — available in Portuguese, Spanish &amp; <a href="https://leanpub.com/drupal-9" style="color:rgba(255,255,255,0.75);border-bottom:dotted 1px;">English</a></p>
           <h2>Aprendendo Drupal como um Framework</h2>
-          <p>Your guide to customizing Drupal. Complete project code included.</p>
+          <p data-i18n="book.subtitle">Your guide to customizing Drupal. Complete project code included.</p>
         </header>
         <main>
           <div class="row">
@@ -317,39 +322,39 @@
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="details">
                 <ul>
-                  <li>The book works for Drupal 8, 9, and 10</li>
-                  <li>235 pages of expert guidance through the Drupal system</li>
-                  <li>+2400 lines of ready-to-use code snippets, including complete project code</li>
-                  <li>Create custom Drupal modules with object-oriented code</li>
-                  <li>Create multi-step forms (with entity forms)</li>
-                  <li>Learn workflows, access control, and custom controllers</li>
-                  <li>Create a block plugin and use dependency injection</li>
-                  <li>And much more</li>
+                  <li data-i18n="book.li1">The book works for Drupal 8, 9, and 10</li>
+                  <li data-i18n="book.li2">235 pages of expert guidance through the Drupal system</li>
+                  <li data-i18n="book.li3">+2400 lines of ready-to-use code snippets, including complete project code</li>
+                  <li data-i18n="book.li4">Create custom Drupal modules with object-oriented code</li>
+                  <li data-i18n="book.li5">Create multi-step forms (with entity forms)</li>
+                  <li data-i18n="book.li6">Learn workflows, access control, and custom controllers</li>
+                  <li data-i18n="book.li7">Create a block plugin and use dependency injection</li>
+                  <li data-i18n="book.li8">And much more</li>
                 </ul>
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div class="reviews">
-                <h3>Reviews</h3>
+                <h3 data-i18n="book.reviews_heading">Reviews</h3>
                 <ul class="clean">
                   <li>
-                    <blockquote>Wonderful, thoroughly explained and pedagogically crafted with care. Great book! - Camillos Figuera</blockquote>
+                    <blockquote data-i18n="book.review1">Wonderful, thoroughly explained and pedagogically crafted with care. Great book! - Camillos Figuera</blockquote>
                   </li>
                   <li>
-                    <blockquote>This is exactly what I've been looking for. Well explained and documented. Thank you! It helped me a lot to understand entities - Wouter Gevaert</blockquote>
+                    <blockquote data-i18n="book.review2">This is exactly what I've been looking for. Well explained and documented. Thank you! It helped me a lot to understand entities - Wouter Gevaert</blockquote>
                   </li>
                 </ul>
               </div>
               <div class="cta">
-                <a href="https://leanpub.com/aprendendo-drupal-como-um-framework" class="btn btn-warning btn-default">Buy now</a>
+                <a href="https://leanpub.com/aprendendo-drupal-como-um-framework" class="btn btn-warning btn-default" data-i18n="book.buy_now">Buy now</a>
                 <div class="book-langs">
                   <small>
                     <a href="https://leanpub.com/aprendiendodrupal9comoframework">(Spanish)</a>&nbsp;&nbsp;<a href="https://leanpub.com/drupal-9">(English)</a>
                   </small>
                 </div>
                 <div class="amazon">
-                  <small class="badge badge-success btn-success">20% discount now!</small>
-                  <a href="https://www.amazon.com/Aprendendo-Drupal-como-Framework-personalizar-ebook/dp/B0BWNPDKX3/ref=sr_1_fkmr0_1?crid=3R59UI7LM9EW&keywords=aprendendo+Drupal+9&qid=1678217765&s=books&sprefix=aprendendo+drupal+90%2Cstripbooks-intl-ship%2C303&sr=1-1-fkmr0"><small>Or buy hardcover on Amazon</small></a>
+                  <small class="badge badge-success btn-success" data-i18n="book.discount">20% discount now!</small>
+                  <a href="https://www.amazon.com/Aprendendo-Drupal-como-Framework-personalizar-ebook/dp/B0BWNPDKX3/ref=sr_1_fkmr0_1?crid=3R59UI7LM9EW&keywords=aprendendo+Drupal+9&qid=1678217765&s=books&sprefix=aprendendo+drupal+90%2Cstripbooks-intl-ship%2C303&sr=1-1-fkmr0"><small data-i18n="book.amazon">Or buy hardcover on Amazon</small></a>
                 </div>
                 <p>
                   <a href="https://cursodedrupal.com.br/" class="more-link">Drupal Course (Portuguese)</a>
@@ -368,17 +373,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>About</h2>
+            <h2 data-i18n="about.heading">About</h2>
             <hr class="star-light">
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2">
-            <p>Senior Drupal Engineer and full-stack developer with 10+ years building high-availability web platforms for major telecoms, industry federations, and research institutions across Latin America and Europe.</p>
-            <p>I specialise in custom Drupal module development, complex content architectures, Apache Solr integrations, and leading technical teams through the full product lifecycle — from architecture to launch.</p>
+            <p data-i18n="about.p1">Senior Drupal Engineer and full-stack developer with 10+ years building high-availability web platforms for major telecoms, industry federations, and research institutions across Latin America and Europe.</p>
+            <p data-i18n="about.p2">I specialise in custom Drupal module development, complex content architectures, Apache Solr integrations, and leading technical teams through the full product lifecycle — from architecture to launch.</p>
           </div>
           <div class="col-md-4 col-lg-4">
-            <p class="about-stack-label">Core stack</p>
+            <p class="about-stack-label" data-i18n="about.stack_core">Core stack</p>
             <div class="about-stack-tags">
               <span class="about-tag">Drupal 8/9/10</span>
               <span class="about-tag">PHP</span>
@@ -388,14 +393,14 @@
               <span class="about-tag">Git</span>
               <span class="about-tag">Linux</span>
             </div>
-            <p class="about-stack-label">Also comfortable with</p>
+            <p class="about-stack-label" data-i18n="about.stack_also">Also comfortable with</p>
             <div class="about-stack-tags">
               <span class="about-tag about-tag--dim">React</span>
               <span class="about-tag about-tag--dim">Node.js</span>
               <span class="about-tag about-tag--dim">Docker</span>
               <span class="about-tag about-tag--dim">Agile / Scrum</span>
             </div>
-            <p class="about-bio">FOSS advocate, published author, and Drupal community contributor. Currently pursuing postgraduate studies in Software Engineering and Applied AI at UNIPDS. Based in Brussels, Belgium and available for remote and European engagements.</p>
+            <p class="about-bio" data-i18n="about.bio">FOSS advocate, published author, and Drupal community contributor. Currently pursuing postgraduate studies in Software Engineering and Applied AI at UNIPDS. Based in Brussels, Belgium and available for remote and European engagements.</p>
           </div>
           <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 text-center">
             <a href="https://github.com/revagomes" class="btn btn-outline">
@@ -470,32 +475,32 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
-            <h2>Get in Touch</h2>
+            <h2 data-i18n="contact.heading">Get in Touch</h2>
             <hr class="star-light">
-            <p>Available for Drupal consulting, full-stack development projects, and technical leadership roles. Let's talk.</p>
+            <p data-i18n="contact.intro">Available for Drupal consulting, full-stack development projects, and technical leadership roles. Let's talk.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
             <form id="contact-form" action="https://formspree.io/f/xlgzzdwq" method="POST" class="contact-form">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Your name" required>
+                <input type="text" name="name" class="form-control" placeholder="Your name" data-i18n-ph="contact.name_ph" required>
               </div>
               <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Your email" required>
+                <input type="email" name="email" class="form-control" placeholder="Your email" data-i18n-ph="contact.email_ph" required>
               </div>
               <div class="form-group">
-                <textarea name="message" class="form-control" rows="5" placeholder="Your message" required></textarea>
+                <textarea name="message" class="form-control" rows="5" placeholder="Your message" data-i18n-ph="contact.message_ph" required></textarea>
               </div>
               <input type="hidden" name="_subject" value="Portfolio contact — revagomes.com.br">
               <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
               <div class="text-center">
                 <button type="submit" class="btn btn-outline">
-                  Send Message <i class="fa fa-paper-plane"></i>
+                  <span data-i18n="contact.send">Send Message</span> <i class="fa fa-paper-plane"></i>
                 </button>
               </div>
             </form>
-            <div id="contact-success" class="contact-success text-center">
+            <div id="contact-success" class="contact-success text-center" data-i18n="contact.success">
               <i class="fa fa-check-circle"></i> Message sent! I'll be in touch soon.
             </div>
           </div>
@@ -508,9 +513,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>Side Projects</h2>
+            <h2 data-i18n="side.heading">Side Projects</h2>
             <hr class="star-primary">
-            <p class="section-intro">A collection of open-source tools, Drupal resources, social impact initiatives, and creative projects built over the years — from browser extensions and AI agent skills to a multiplayer game, an NGO, and a punk band.</p>
+            <p class="section-intro" data-i18n="side.intro">A collection of open-source tools, Drupal resources, social impact initiatives, and creative projects built over the years — from browser extensions and AI agent skills to a multiplayer game, an NGO, and a punk band.</p>
           </div>
         </div>
 
@@ -518,7 +523,7 @@
         <section aria-label="Drupal and CMS projects">
           <div class="row">
             <div class="col-lg-12">
-              <h3 class="side-projects-category">Drupal &amp; CMS</h3>
+              <h3 class="side-projects-category" data-i18n="side.cat.drupal">Drupal &amp; CMS</h3>
             </div>
           </div>
           <div class="row work-grid">
@@ -533,8 +538,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name"><span lang="pt">O que é Drupal?</span></h4>
-                  <p class="work-role">Open Source &middot; Website</p>
-                  <p class="work-desc" itemprop="description">A Portuguese localisation of the "What is Drupal?" community website, introducing Drupal to Brazilian and Portuguese-speaking developers.</p>
+                  <p class="work-role" data-i18n="side.oqueeh.role">Open Source &middot; Website</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.oqueeh.desc">A Portuguese localisation of the "What is Drupal?" community website, introducing Drupal to Brazilian and Portuguese-speaking developers.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Drupal</span>
                     <span class="tag">CMS</span>
@@ -558,8 +563,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name"><span lang="pt">Drupalizando</span></h4>
-                  <p class="work-role">Open Source &middot; Free Training Platform</p>
-                  <p class="work-desc" itemprop="description">Free Drupal video training platform empowering individuals, small businesses, and NGOs to build websites. Access the course by sharing your skills with someone else.</p>
+                  <p class="work-role" data-i18n="side.drupalizando.role">Open Source &middot; Free Training Platform</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.drupalizando.desc">Free Drupal video training platform empowering individuals, small businesses, and NGOs to build websites. Access the course by sharing your skills with someone else.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Drupal</span>
                     <span class="tag">Training</span>
@@ -583,8 +588,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name">Dhrome</h4>
-                  <p class="work-role">Open Source &middot; Browser Extension</p>
-                  <p class="work-desc" itemprop="description">A Chrome browser extension for Drupal developers. Access Drupal documentation, module pages, and community resources directly from the address bar.</p>
+                  <p class="work-role" data-i18n="side.dhrome.role">Open Source &middot; Browser Extension</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.dhrome.desc">A Chrome browser extension for Drupal developers. Access Drupal documentation, module pages, and community resources directly from the address bar.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Chrome Extension</span>
                     <span class="tag">Drupal</span>
@@ -607,8 +612,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name">Drupal TDD Skill</h4>
-                  <p class="work-role">Open Source &middot; AI Agent Skill</p>
-                  <p class="work-desc" itemprop="description">Provider-agnostic TDD workflow skill for Drupal development. Works with Claude Code, Cursor, Cline, Copilot, and any AI coding assistant that supports custom skills.</p>
+                  <p class="work-role" data-i18n="side.drupal-tdd.role">Open Source &middot; AI Agent Skill</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.drupal-tdd.desc">Provider-agnostic TDD workflow skill for Drupal development. Works with Claude Code, Cursor, Cline, Copilot, and any AI coding assistant that supports custom skills.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Drupal</span>
                     <span class="tag">TDD</span>
@@ -632,8 +637,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name">EC Europa Drupal Quality</h4>
-                  <p class="work-role">Open Source &middot; DevOps Toolkit</p>
-                  <p class="work-desc" itemprop="description">Quality gates toolkit for OpenEuropa Drupal projects — integrates PHPCS, PHPStan, PHPUnit, and Behat with EC Europa configuration management standards.</p>
+                  <p class="work-role" data-i18n="side.ec-quality.role">Open Source &middot; DevOps Toolkit</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.ec-quality.desc">Quality gates toolkit for OpenEuropa Drupal projects — integrates PHPCS, PHPStan, PHPUnit, and Behat with EC Europa configuration management standards.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Drupal</span>
                     <span class="tag">PHP</span>
@@ -668,7 +673,7 @@
         <section aria-label="AI and Developer Tools projects">
           <div class="row">
             <div class="col-lg-12">
-              <h3 class="side-projects-category">AI &amp; Developer Tools</h3>
+              <h3 class="side-projects-category" data-i18n="side.cat.ai">AI &amp; Developer Tools</h3>
             </div>
           </div>
           <div class="row work-grid">
@@ -683,8 +688,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name">Cybersecurity Skills Gateway</h4>
-                  <p class="work-role">Open Source &middot; MCP Server</p>
-                  <p class="work-desc" itemprop="description">MCP gateway giving any AI agent on-demand access to 754 cybersecurity skills — no local clone needed. Plug in and query the full library from any MCP-compatible assistant.</p>
+                  <p class="work-role" data-i18n="side.cybersec.role">Open Source &middot; MCP Server</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.cybersec.desc">MCP gateway giving any AI agent on-demand access to 754 cybersecurity skills — no local clone needed. Plug in and query the full library from any MCP-compatible assistant.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">AI</span>
                     <span class="tag">Security</span>
@@ -708,8 +713,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name">Kiro Power: Autonomous Dev</h4>
-                  <p class="work-role">Open Source &middot; AI Orchestration Skill</p>
-                  <p class="work-desc" itemprop="description">Orchestrate multiple AI agents in parallel using git worktrees. Each agent implements an independent task and opens a PR for human review — fully autonomous, fully auditable.</p>
+                  <p class="work-role" data-i18n="side.kiro-autonomous.role">Open Source &middot; AI Orchestration Skill</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.kiro-autonomous.desc">Orchestrate multiple AI agents in parallel using git worktrees. Each agent implements an independent task and opens a PR for human review — fully autonomous, fully auditable.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">AI Agents</span>
                     <span class="tag">Automation</span>
@@ -733,8 +738,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name">Kiro Power: AI Agent Security</h4>
-                  <p class="work-role">Open Source &middot; Security Skill</p>
-                  <p class="work-desc" itemprop="description">Protect your codebase from prompt injection attacks, enforce write-protected paths, and establish security incident response protocols for AI-assisted development workflows.</p>
+                  <p class="work-role" data-i18n="side.kiro-security.role">Open Source &middot; Security Skill</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.kiro-security.desc">Protect your codebase from prompt injection attacks, enforce write-protected paths, and establish security incident response protocols for AI-assisted development workflows.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">AI Security</span>
                     <span class="tag">DevTools</span>
@@ -757,8 +762,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name">sshconfig</h4>
-                  <p class="work-role">Open Source &middot; Node.js CLI</p>
-                  <p class="work-desc" itemprop="description">Manage SSH config files sanely. Split SSH aliases into individual files under <code>~/.ssh/config.d/</code> instead of one giant config — then auto-concatenate with a single update command.</p>
+                  <p class="work-role" data-i18n="side.sshconfig.role">Open Source &middot; Node.js CLI</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.sshconfig.desc">Manage SSH config files sanely. Split SSH aliases into individual files under <code>~/.ssh/config.d/</code> instead of one giant config — then auto-concatenate with a single update command.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Node.js</span>
                     <span class="tag">CLI</span>
@@ -792,7 +797,7 @@
         <section aria-label="Games, Community and Social Impact projects">
           <div class="row">
             <div class="col-lg-12">
-              <h3 class="side-projects-category">Games, Community &amp; Social Impact</h3>
+              <h3 class="side-projects-category" data-i18n="side.cat.games">Games, Community &amp; Social Impact</h3>
             </div>
           </div>
           <div class="row work-grid">
@@ -807,8 +812,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name"><span lang="pt">Peleia Braba</span></h4>
-                  <p class="work-role">Node Knockout &middot; Multiplayer Game</p>
-                  <p class="work-desc" itemprop="description">Realtime multiplayer Stratego-like game built for Node Knockout — the world's biggest Node.js hackathon. Powered by Socket.io for live board state and player moves.</p>
+                  <p class="work-role" data-i18n="side.peleia.role">Node Knockout &middot; Multiplayer Game</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.peleia.desc">Realtime multiplayer Stratego-like game built for Node Knockout — the world's biggest Node.js hackathon. Powered by Socket.io for live board state and player moves.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Node.js</span>
                     <span class="tag">Socket.io</span>
@@ -832,8 +837,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name"><span lang="pt">Associação Caminhos para o Futuro</span></h4>
-                  <p class="work-role">NGO &middot; Belo Horizonte, Brazil &middot; est. 2021</p>
-                  <p class="work-desc" itemprop="description">Non-profit providing education, technology training, and human development for socially vulnerable youth in Belo Horizonte. Logo designed by Reva.</p>
+                  <p class="work-role" data-i18n="side.acf.role">NGO &middot; Belo Horizonte, Brazil &middot; est. 2021</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.acf.desc">Non-profit providing education, technology training, and human development for socially vulnerable youth in Belo Horizonte. Logo designed by Reva.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">NGO</span>
                     <span class="tag">Education</span>
@@ -858,8 +863,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name"><span lang="pt">Novos Titans Programadores</span></h4>
-                  <p class="work-role">ACF &middot; Tech Training Programme</p>
-                  <p class="work-desc" itemprop="description">Tech training programme by ACF teaching software development and soft skills to economically disadvantaged youth, opening pathways to careers in technology.</p>
+                  <p class="work-role" data-i18n="side.novos-titans.role">ACF &middot; Tech Training Programme</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.novos-titans.desc">Tech training programme by ACF teaching software development and soft skills to economically disadvantaged youth, opening pathways to careers in technology.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Education</span>
                     <span class="tag">Tech Training</span>
@@ -884,8 +889,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name">No Masters Project</h4>
-                  <p class="work-role">Open Source &middot; Community Platform</p>
-                  <p class="work-desc" itemprop="description">Global network of mutual support for self-organization — a collaborative ecosystem for individuals, bands, movements, and organisations with libertarian and DIY principles.</p>
+                  <p class="work-role" data-i18n="side.no-masters-project.role">Open Source &middot; Community Platform</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.no-masters-project.desc">Global network of mutual support for self-organization — a collaborative ecosystem for individuals, bands, movements, and organisations with libertarian and DIY principles.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Community</span>
                     <span class="tag">DIY</span>
@@ -909,8 +914,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name">No Masters <span class="side-project-type">Band</span></h4>
-                  <p class="work-role">Belo Horizonte, Brazil &middot; In Stand By</p>
-                  <p class="work-desc" itemprop="description">Anarcopunk band from Brazil. Members: Ali (vocals), Carol (bass), Ninja (drums), Reva (guitar), Dani (vocals). Listen on Facebook and SoundCloud.</p>
+                  <p class="work-role" data-i18n="side.no-masters-band.role">Belo Horizonte, Brazil &middot; In Stand By</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.no-masters-band.desc">Anarcopunk band from Brazil. Members: Ali (vocals), Carol (bass), Ninja (drums), Reva (guitar), Dani (vocals). Listen on Facebook and SoundCloud.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Music</span>
                     <span class="tag">Anarcopunk</span>
@@ -945,7 +950,7 @@
         <section aria-label="Design and Creative projects">
           <div class="row">
             <div class="col-lg-12">
-              <h3 class="side-projects-category">Design &amp; Creative</h3>
+              <h3 class="side-projects-category" data-i18n="side.cat.design">Design &amp; Creative</h3>
             </div>
           </div>
           <div class="row work-grid">
@@ -960,8 +965,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name"><span lang="pt">Caminhos para o Futuro</span> <span class="side-project-type">Logo</span></h4>
-                  <p class="work-role">Logo Design &middot; Belo Horizonte, Brazil &middot; 2021</p>
-                  <p class="work-desc" itemprop="description">Brand identity for the Associação Caminhos para o Futuro — a Brazilian NGO providing education, technology training, and human development for socially vulnerable youth.</p>
+                  <p class="work-role" data-i18n="side.logo-acf.role">Logo Design &middot; Belo Horizonte, Brazil &middot; 2021</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.logo-acf.desc">Brand identity for the Associação Caminhos para o Futuro — a Brazilian NGO providing education, technology training, and human development for socially vulnerable youth.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Logo Design</span>
                     <span class="tag">Brand Identity</span>
@@ -985,8 +990,8 @@
                 </div>
                 <div class="work-card-body">
                   <h4 class="work-title" itemprop="name"><span lang="pt">Associação Drupal Brasil</span> <span class="side-project-type">Logo</span></h4>
-                  <p class="work-role">Logo Design &middot; Brazil</p>
-                  <p class="work-desc" itemprop="description">Brand identity for the Associação Drupal Brasil — the official community association promoting, supporting, and engaging the Drupal open-source ecosystem across Brazil.</p>
+                  <p class="work-role" data-i18n="side.logo-drupal-brasil.role">Logo Design &middot; Brazil</p>
+                  <p class="work-desc" itemprop="description" data-i18n="side.logo-drupal-brasil.desc">Brand identity for the Associação Drupal Brasil — the official community association promoting, supporting, and engaging the Drupal open-source ecosystem across Brazil.</p>
                   <div class="work-tags">
                     <span class="tag" itemprop="keywords">Logo Design</span>
                     <span class="tag">Brand Identity</span>
@@ -1024,14 +1029,14 @@
         <div class="container">
           <div class="row">
             <div class="footer-col col-md-4">
-              <h3>Location</h3>
+              <h3 data-i18n="footer.location">Location</h3>
               <p>Brussels, Belgium</p>
             </div>
             <div class="footer-col col-md-4">
 
             </div>
             <div class="footer-col col-md-4">
-              <h3>Around the Web</h3>
+              <h3 data-i18n="footer.web">Around the Web</h3>
               <ul class="list-inline">
                 <li>
                   <a href="http://drupal.org/u/revagomes" title="Drupal Profile" class="btn-social btn-outline"><i class="fa fa-fw fa-drupal"></i></a>
@@ -1054,7 +1059,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              copyleft. Reva.
+              <span data-i18n="footer.copy">copyleft. Reva.</span>
             </div>
           </div>
         </div>
@@ -1233,6 +1238,132 @@
       </div>
     </div>
 
+    <script>
+    window.SITE_I18N = {
+      en: {
+        "nav.portfolio": "Portfolio",
+        "nav.book": "Book",
+        "nav.about": "About",
+        "nav.contact": "Contact",
+        "hero.role": "Senior Drupal Engineer &amp; Full Stack Developer",
+        "hero.location": "10+ years building enterprise web platforms &middot; Brussels, Belgium",
+        "work.heading": "Work",
+        "work.view_details": "View Details <i class='fa fa-long-arrow-right'></i>",
+        "work.w01.role": "Senior Drupal Engineer &middot; Claro + Ogilvy Brasil",
+        "work.w01.desc": "High-availability rebuild of Claro Brazil's portal with geolocation-based content delivery, advanced Apache Solr search, and improved editorial workflows.",
+        "work.w02.role": "Senior Drupal Engineer &middot; Ogilvy Brazil + Claro",
+        "work.w02.desc": "Social marketing campaign builder for Latin America's largest telecom, enabling fortnightly campaign launches with multimedia content, social network integration, and SEO analytics.",
+        "work.w03.role": "Senior Drupal Engineer &middot; Intelbras",
+        "work.w03.desc": "Institutional channel and product catalog for Intelbras, one of Brazil's leading electronics manufacturers.",
+        "work.w04.role": "Senior Drupal Engineer &middot; FIESC",
+        "work.w04.desc": "Institutional portal for FIESC — Federação das Indústrias de Santa Catarina — one of the major industry federations in Brazil.",
+        "work.w05.role": "Tech Lead &amp; Drupal Architect &middot; UCI",
+        "work.w05.desc": "Open source Drupal-based platform for multi-sited collaborative ethnographic research, enabling data archiving, analytic collaboration, and experimental publication modes.",
+        "work.w06.role": "Full Stack Developer &middot; Natura Brasil",
+        "work.w06.desc": "Intranet system managing payments and commissioning for Natura's nationwide network of representatives and resellers.",
+        "book.lang_label": "Published book — available in Portuguese, Spanish &amp; <a href='https://leanpub.com/drupal-9' style='color:rgba(255,255,255,0.75);border-bottom:dotted 1px;'>English</a>",
+        "book.subtitle": "Your guide to customizing Drupal. Complete project code included.",
+        "book.li1": "The book works for Drupal 8, 9, and 10",
+        "book.li2": "235 pages of expert guidance through the Drupal system",
+        "book.li3": "+2400 lines of ready-to-use code snippets, including complete project code",
+        "book.li4": "Create custom Drupal modules with object-oriented code",
+        "book.li5": "Create multi-step forms (with entity forms)",
+        "book.li6": "Learn workflows, access control, and custom controllers",
+        "book.li7": "Create a block plugin and use dependency injection",
+        "book.li8": "And much more",
+        "book.reviews_heading": "Reviews",
+        "book.review1": "Wonderful, thoroughly explained and pedagogically crafted with care. Great book! - Camillos Figuera",
+        "book.review2": "This is exactly what I've been looking for. Well explained and documented. Thank you! It helped me a lot to understand entities - Wouter Gevaert",
+        "book.buy_now": "Buy now",
+        "book.discount": "20% discount now!",
+        "book.amazon": "Or buy hardcover on Amazon",
+        "about.heading": "About",
+        "about.p1": "Senior Drupal Engineer and full-stack developer with 10+ years building high-availability web platforms for major telecoms, industry federations, and research institutions across Latin America and Europe.",
+        "about.p2": "I specialise in custom Drupal module development, complex content architectures, Apache Solr integrations, and leading technical teams through the full product lifecycle — from architecture to launch.",
+        "about.stack_core": "Core stack",
+        "about.stack_also": "Also comfortable with",
+        "about.bio": "FOSS advocate, published author, and Drupal community contributor. Currently pursuing postgraduate studies in Software Engineering and Applied AI at UNIPDS. Based in Brussels, Belgium and available for remote and European engagements.",
+        "contact.heading": "Get in Touch",
+        "contact.intro": "Available for Drupal consulting, full-stack development projects, and technical leadership roles. Let's talk.",
+        "contact.name_ph": "Your name",
+        "contact.email_ph": "Your email",
+        "contact.message_ph": "Your message",
+        "contact.send": "Send Message",
+        "contact.success": "<i class='fa fa-check-circle'></i> Message sent! I'll be in touch soon.",
+        "side.heading": "Side Projects",
+        "side.intro": "A collection of open-source tools, Drupal resources, social impact initiatives, and creative projects built over the years — from browser extensions and AI agent skills to a multiplayer game, an NGO, and a punk band.",
+        "side.cat.drupal": "Drupal &amp; CMS",
+        "side.cat.ai": "AI &amp; Developer Tools",
+        "side.cat.games": "Games, Community &amp; Social Impact",
+        "side.cat.design": "Design &amp; Creative",
+        "footer.location": "LOCATION",
+        "footer.web": "AROUND THE WEB",
+        "footer.copy": "copyleft. Reva."
+      },
+      pt: {
+        "nav.portfolio": "Portfólio",
+        "nav.book": "Livro",
+        "nav.about": "Sobre",
+        "nav.contact": "Contato",
+        "hero.role": "Engenheiro Drupal Sênior &amp; Desenvolvedor Full Stack",
+        "hero.location": "10+ anos construindo plataformas web corporativas &middot; Bruxelas, Bélgica",
+        "work.heading": "Projetos",
+        "work.view_details": "Ver Detalhes <i class='fa fa-long-arrow-right'></i>",
+        "work.w01.role": "Engenheiro Drupal Sênior &middot; Claro + Ogilvy Brasil",
+        "work.w01.desc": "Reconstrução de alta disponibilidade do portal da Claro Brasil com entrega de conteúdo baseada em geolocalização, busca avançada com Apache Solr e workflows editoriais otimizados.",
+        "work.w02.role": "Engenheiro Drupal Sênior &middot; Ogilvy Brasil + Claro",
+        "work.w02.desc": "Construtor de campanhas de marketing para a maior operadora da América Latina, permitindo lançamentos quinzenais com conteúdo multimídia, integração com redes sociais e analytics SEO.",
+        "work.w03.role": "Engenheiro Drupal Sênior &middot; Intelbras",
+        "work.w03.desc": "Canal institucional e catálogo de produtos da Intelbras, um dos principais fabricantes de eletrônicos do Brasil.",
+        "work.w04.role": "Engenheiro Drupal Sênior &middot; FIESC",
+        "work.w04.desc": "Portal institucional da FIESC — Federação das Indústrias de Santa Catarina — uma das principais federações industriais do Brasil.",
+        "work.w05.role": "Tech Lead &amp; Arquiteto Drupal &middot; UCI",
+        "work.w05.desc": "Plataforma open source baseada em Drupal para pesquisa etnográfica colaborativa multi-sítio, com arquivamento de dados, colaboração analítica e modos experimentais de publicação.",
+        "work.w06.role": "Desenvolvedor Full Stack &middot; Natura Brasil",
+        "work.w06.desc": "Sistema de intranet para gestão de pagamentos e comissionamento da rede nacional de representantes e revendedores da Natura.",
+        "book.lang_label": "Livro publicado — disponível em português, espanhol e <a href='https://leanpub.com/drupal-9' style='color:rgba(255,255,255,0.75);border-bottom:dotted 1px;'>inglês</a>",
+        "book.subtitle": "Seu guia para personalizar o Drupal. Código completo do projeto incluído.",
+        "book.li1": "O livro funciona para Drupal 8, 9 e 10",
+        "book.li2": "235 páginas de orientação especializada sobre o sistema Drupal",
+        "book.li3": "+2400 linhas de trechos de código prontos para uso, incluindo código completo do projeto",
+        "book.li4": "Crie módulos Drupal customizados com código orientado a objetos",
+        "book.li5": "Crie formulários multi-etapas (com entity forms)",
+        "book.li6": "Aprenda workflows, controle de acesso e controllers customizados",
+        "book.li7": "Crie um plugin de bloco e use injeção de dependência",
+        "book.li8": "E muito mais",
+        "book.reviews_heading": "Avaliações",
+        "book.review1": "Maravilhoso, explicado com cuidado e pedagogicamente bem elaborado. Ótimo livro! - Camillos Figuera",
+        "book.review2": "É exatamente o que eu estava procurando. Bem explicado e documentado. Obrigado! Me ajudou muito a entender entidades - Wouter Gevaert",
+        "book.buy_now": "Comprar agora",
+        "book.discount": "20% de desconto agora!",
+        "book.amazon": "Ou comprar capa dura na Amazon",
+        "about.heading": "Sobre",
+        "about.p1": "Engenheiro Drupal Sênior e desenvolvedor full-stack com 10+ anos construindo plataformas web de alta disponibilidade para grandes telecomunicações, federações industriais e instituições de pesquisa na América Latina e Europa.",
+        "about.p2": "Especializo-me em desenvolvimento de módulos Drupal customizados, arquiteturas de conteúdo complexas, integrações Apache Solr e liderança de equipes técnicas em todo o ciclo de produto — da arquitetura ao lançamento.",
+        "about.stack_core": "Stack principal",
+        "about.stack_also": "Também trabalho com",
+        "about.bio": "Defensor do software livre, autor publicado e contribuidor da comunidade Drupal. Atualmente cursando pós-graduação em Engenharia de Software e IA Aplicada na UNIPDS. Baseado em Bruxelas, Bélgica e disponível para projetos remotos e europeus.",
+        "contact.heading": "Entre em Contato",
+        "contact.intro": "Disponível para consultoria Drupal, projetos de desenvolvimento full-stack e funções de liderança técnica. Vamos conversar.",
+        "contact.name_ph": "Seu nome",
+        "contact.email_ph": "Seu e-mail",
+        "contact.message_ph": "Sua mensagem",
+        "contact.send": "Enviar Mensagem",
+        "contact.success": "<i class='fa fa-check-circle'></i> Mensagem enviada! Entrarei em contato em breve.",
+        "side.heading": "Projetos Pessoais",
+        "side.intro": "Uma coleção de ferramentas open source, recursos Drupal, iniciativas de impacto social e projetos criativos construídos ao longo dos anos — de extensões de navegador e skills de agente de IA a um jogo multiplayer, uma ONG e uma banda punk.",
+        "side.cat.drupal": "Drupal &amp; CMS",
+        "side.cat.ai": "IA &amp; Ferramentas Dev",
+        "side.cat.games": "Jogos, Comunidade &amp; Impacto Social",
+        "side.cat.design": "Design &amp; Criativo",
+        "footer.location": "LOCALIZAÇÃO",
+        "footer.web": "NA INTERNET",
+        "footer.copy": "copyleft. Reva."
+      }
+    };
+    </script>
+    <script src="assets/js/i18n.js"></script>
+
     <!-- jQuery -->
     <script src="./assets/js/jquery.js"></script>
 
@@ -1250,14 +1381,6 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="./assets/js/freelancer.js"></script>
-
-    <!-- Website Translator JavaScript-->
-    <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-8072551-5'}, 'google_translate_element');
-    }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!-- Contact form AJAX submission -->
     <script>
