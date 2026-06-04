@@ -25,18 +25,18 @@
     if (lang === 'pt') { url.searchParams.set('lang', 'pt'); }
     else { url.searchParams.delete('lang'); }
     window.history.replaceState({}, '', url.toString());
-    document.querySelectorAll('.lang-btn').forEach(function (el) {
-      el.classList.toggle('lang-btn--active', el.dataset.lang === lang);
+    document.querySelectorAll('.lang-opt').forEach(function (el) {
+      el.classList.toggle('lang-opt--active', el.dataset.lang === lang);
     });
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     var lang = getLang();
     apply(lang);
-    document.querySelectorAll('.lang-btn').forEach(function (el) {
+    document.querySelectorAll('.lang-opt').forEach(function (el) {
       el.addEventListener('click', function (e) {
         e.preventDefault();
-        var l = el.dataset.lang;
+        var l = el.getAttribute('data-lang');
         localStorage.setItem('revagomes_lang', l);
         apply(l);
       });

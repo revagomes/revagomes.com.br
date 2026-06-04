@@ -569,12 +569,35 @@ header .container {
   color: #18bc9c;
 }
 
-/* Language toggle */
-.lang-toggle { display: flex; align-items: center; gap: 4px; padding: 12px 6px; }
-.lang-btn { font-size: 12px; font-weight: 600; letter-spacing: 0.05em; color: rgba(255,255,255,0.7); text-decoration: none; padding: 2px 4px; border-radius: 2px; transition: color 0.2s; }
-.lang-btn:hover, .lang-btn--active { color: #fff; }
-.lang-btn--active { border-bottom: 2px solid #fff; }
-.lang-sep { color: rgba(255,255,255,0.4); font-size: 11px; }
-.navbar.navbar-default .lang-btn { color: rgba(50,33,66,0.55); }
-.navbar.navbar-default .lang-btn:hover, .navbar.navbar-default .lang-btn--active { color: #322142; }
-.navbar.navbar-default .lang-btn--active { border-bottom-color: #322142; }
+/* Language switcher pill */
+.lang-toggle { padding: 0; }
+.lang-switcher-link { display: flex !important; align-items: center; padding: 14px 10px 14px 8px !important; }
+.lang-pill {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.28);
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.lang-opt {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.45);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  line-height: 1.4;
+  user-select: none;
+}
+.lang-opt + .lang-opt { border-left: 1px solid rgba(255,255,255,0.18); }
+.lang-opt--active { background: rgba(255,255,255,0.18); color: #fff; }
+.lang-opt:hover:not(.lang-opt--active) { color: rgba(255,255,255,0.8); }
+/* Scrolled state */
+.navbar.navbar-default .lang-pill { border-color: rgba(50,33,66,0.22); }
+.navbar.navbar-default .lang-opt { color: rgba(50,33,66,0.38); }
+.navbar.navbar-default .lang-opt + .lang-opt { border-left-color: rgba(50,33,66,0.15); }
+.navbar.navbar-default .lang-opt--active { background: rgba(50,33,66,0.1); color: #322142; }
+.navbar.navbar-default .lang-opt:hover:not(.lang-opt--active) { color: rgba(50,33,66,0.7); }
