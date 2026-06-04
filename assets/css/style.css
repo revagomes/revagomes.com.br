@@ -595,9 +595,9 @@ header .container {
 .lang-opt + .lang-opt { border-left: 1px solid rgba(255,255,255,0.18); }
 .lang-opt--active { background: rgba(255,255,255,0.18); color: #fff; }
 .lang-opt:hover:not(.lang-opt--active) { color: rgba(255,255,255,0.8); }
-/* Scrolled state */
-.navbar.navbar-default .lang-pill { border-color: rgba(50,33,66,0.22); }
-.navbar.navbar-default .lang-opt { color: rgba(50,33,66,0.38); }
-.navbar.navbar-default .lang-opt + .lang-opt { border-left-color: rgba(50,33,66,0.15); }
-.navbar.navbar-default .lang-opt--active { background: rgba(50,33,66,0.1); color: #322142; }
-.navbar.navbar-default .lang-opt:hover:not(.lang-opt--active) { color: rgba(50,33,66,0.7); }
+/* Scrolled state (navbar-shrink = white background) */
+.navbar-shrink .lang-pill { border-color: rgba(50,33,66,0.25); }
+.navbar-shrink .lang-opt { color: rgba(50,33,66,0.45); }
+.navbar-shrink .lang-opt + .lang-opt { border-left-color: rgba(50,33,66,0.15); }
+.navbar-shrink .lang-opt--active { background: rgba(50,33,66,0.1); color: #322142; }
+.navbar-shrink .lang-opt:hover:not(.lang-opt--active) { color: rgba(50,33,66,0.75); }
